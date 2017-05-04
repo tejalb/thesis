@@ -1,3 +1,4 @@
+\beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Motivation}{11}{0}{2}
 \beamer@sectionintoc {3}{Contributions}{14}{0}{3}
