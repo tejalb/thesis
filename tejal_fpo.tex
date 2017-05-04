@@ -79,7 +79,7 @@
 \captionsetup[figure]{labelformat=empty}
 \begin{document}
 
-\title{Image Restoration and 3D Reconstruction from Cryo-EM Images}
+\title[FPO Talk]{Image Restoration and 3D Reconstruction from Cryo-EM Images}
 \institute[
 ]
 {
@@ -194,7 +194,7 @@ Advisers: Amit Singer and Joshua Shaevitz}
 
 \begin{frame}<beamer>
 \setbeamercovered{transparent}
-\frametitle{Cryo-EM Database}
+\frametitle{Cryo-EM Length Scales}
 \begin{columns}
 \column{1\linewidth}
 \centering
@@ -202,8 +202,6 @@ Advisers: Amit Singer and Joshua Shaevitz}
 \end{columns}
 \blfootnote{Merk et al. (2016)}
 \end{frame}
-
-\section{Motivation}
 
 \begin{frame}<beamer>
 \setbeamercovered{transparent}
@@ -226,7 +224,7 @@ Advisers: Amit Singer and Joshua Shaevitz}
 \end{figure}
 \end{frame}
 
-\section{Contributions}
+\section{Challenges and Contributions}
 
 \begin{frame}<beamer>
 \setbeamercovered{transparent}
@@ -255,7 +253,7 @@ Advisers: Amit Singer and Joshua Shaevitz}
 \end{figure}
 \begin{itemize}
 \item Existing CTF correction suboptimal
-\item Need better denoising for preliminary inspection, outlier detection, without class averaging
+\item Need better denoising for preliminary inspection, outlier detection, without class averaging (expensive)
 \item Covariance matrix estimate needed for our 3D homology approach
 \end{itemize}
 \end{columns}
@@ -302,6 +300,15 @@ Advisers: Amit Singer and Joshua Shaevitz}
 Algorithms validated on both synthetic and real experimental datasets
 \end{frame}
 
+\begin{frame}<beamer>
+\setbeamercovered{transparent}
+\frametitle{Proposed Computational Pipeline}
+\begin{figure}[h]
+\centering
+{\includegraphics[scale=0.35]{figures/cryoem_pipeline_ours.pdf}}\\
+\label{fig:rawims}
+\end{figure}
+\end{frame}
 
 
 \begin{frame}<beamer>
@@ -345,8 +352,7 @@ Algorithms validated on both synthetic and real experimental datasets
 \frametitle{Homology modeling: synthetic TRPV1 dataset}
 \begin{figure}[!htbp]
 \begin{tabular}{cc}
-\includegraphics[width=0.45\linewidth]{figures/sim8117_compare.pdf}\label{fig:simtrpv_emdb} \\
-\includegraphics[width=0.95\linewidth]{figures/sim8117.pdf}\label{fig:simtrpv_res}\\
+\includegraphics[width=0.95\linewidth]{figures/trpv1_flowchart.pdf}\label{fig:simtrpv_emdb}
 \end{tabular}
 \end{figure}\blfootnote{TB, T. Zhang, A. Singer (2017)}
 \end{frame}
