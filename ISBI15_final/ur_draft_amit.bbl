@@ -1,0 +1,140 @@
+\begin{thebibliography}{10}
+
+\bibitem{Frank1}
+J.~Frank,
+\newblock {\em Three-Dimensional Electron Microscopy of Macromolecular
+  Assemblies : Visualization of Biological Molecules in Their Native State:
+  Visualization of Biological Molecules in Their Native State},
+\newblock Oxford University Press, USA, 2006.
+
+\bibitem{resolution_revolution}
+W.~K\"{u}hlbrandt,
+\newblock ``The resolution revolution,''
+\newblock {\em Science}, vol. 343, pp. 1443--1444, 2014.
+
+\bibitem{Revol}
+X.~Bai, G.~McMullan, and S.H.W Scheres,
+\newblock ``How cryo-em is revolutionizing structural biology,''
+\newblock {\em Trends in Biochemical Sciences}, in press.
+
+\bibitem{wang06}
+L.~Wang and F.~J. Sigworth,
+\newblock ``Cryo-{EM} and single particles,''
+\newblock {\em Physiology (Bethesda)}, vol. 21, pp. 13--18, 2006.
+
+\bibitem{vanheel00}
+M.~van Heel, B.~Gowen, R.~Matadeen, E.~V. Orlova, R.~Finn, T.~Pape, D.~Cohen,
+  H.~Stark, R.~Schmidt, and A.~Patwardhan,
+\newblock ``Single particle electron cryo-microscopy: {T}owards atomic
+  resolution,''
+\newblock {\em Q. Rev. Biophys.}, vol. 33, pp. 307--369, 2000.
+
+\bibitem{gridding}
+P.~Penczek, R.~Renka, and H.~Schomberg,
+\newblock ``Gridding-based direct {F}ourier inversion of the three-dimensional
+  ray transform,''
+\newblock {\em J. Opt. Soc. Am. A}, vol. 21, pp. 499--509, 2004.
+
+\bibitem{Radermacher}
+A.~Verschoor M.~Radermacher, T.~Wagenknecht and J.~Frank,
+\newblock ``Three-dimensional reconstruction from a single-exposure, random
+  conical tilt series applied to the 50s ribosomal subunit of escherichia
+  coli,''
+\newblock {\em Journal of Microscopy}, vol. 146, no. 2, pp. 113--136, 1987.
+
+\bibitem{Radermacher2}
+A.~Verschoor M.~Radermacher, T.~Wagenknecht and J.~Frank,
+\newblock ``{Three-dimensional structure of the large ribosomal subunit from
+  Escherichia coli},''
+\newblock {\em EMBO J}, vol. 6, no. 4, pp. 1107--14, 1987.
+
+\bibitem{Goncharov}
+A.B. Goncharov,
+\newblock ``Integral geometry and three-dimensional reconstruction of randomly
+  oriented identical particles from their electron microphotos,''
+\newblock {\em Acta Applicandae Mathematicae}, vol. 11, pp. 199--211, 1988.
+
+\bibitem{Salzman}
+D.B. Salzman,
+\newblock ``A method of general moments for orienting {2D} projections of
+  unknown {3D} objects,''
+\newblock {\em Comput. Vision Graph. Image Process.}, vol. 50, no. 2, pp.
+  129--156, May 1990.
+
+\bibitem{Goncharov1986}
+B.K. Vainstein and A.B. Goncharov,
+\newblock ``Determining the spatial orientation of arbitrarily arranged
+  particles given their projections,''
+\newblock {\em Dokl. Acad. Sci. USSR}, vol. 287, no. 5, pp. 1131--1134, 1986,
+\newblock English translation: Soviet Physics Doklady, Vol. 31, p.278.
+
+\bibitem{vanHeel1987}
+M.~Van~Heel,
+\newblock ``Angular reconstitution: a posteriori assignment of projection
+  directions for 3d reconstruction,''
+\newblock {\em Ultramicroscopy}, vol. 21, no. 2, pp. 111--123, 1987.
+
+\bibitem{SS_11}
+A.~Singer and Y.~Shkolnisky,
+\newblock ``Three-dimensional structure determination from common lines in
+  cryo-{EM} by eigenvectors and semidefinite programming,''
+\newblock {\em SIAM Journal on Imaging Sciences}, vol. 4, pp. 543--572, 2011.
+
+\bibitem{Zhao}
+Z.~Zhao and A.~Singer,
+\newblock ``Rotationally invariant image representation for viewing direction
+  classification in cryo-{EM},''
+\newblock {\em Journal of Structural Biology}, vol. 186, no. 1, pp. 153 -- 166,
+  2014.
+
+\bibitem{kam1980}
+Z.~Kam,
+\newblock ``The reconstruction of structure from electron micrographs of
+  randomly oriented particles,''
+\newblock {\em Journal of Theoretical Biology}, vol. 82, no. 1, pp. 15 -- 39,
+  1980.
+
+\bibitem{Natr2001a}
+F.~Natterer,
+\newblock {\em The Mathematics of Computerized Tomography},
+\newblock Classics in Applied Mathematics. SIAM: Society for Industrial and
+  Applied Mathematics, 2001.
+
+\bibitem{keller}
+J.~B. Keller,
+\newblock ``Closest unitary, orthogonal and {Hermitian} operators to a given
+  operator,''
+\newblock {\em Mathematics Magazine}, vol. 48, no. 4, pp. 192--197, 1975.
+
+\bibitem{Cheeger}
+A.~S. Bandeira, A.~Singer, and D.~A. Spielman,
+\newblock ``A {Cheeger} inequality for the graph connection {Laplacian},''
+\newblock {\em SIAM Journal on Matrix Analysis and Applications}, vol. 34, no.
+  4, pp. 1611--1630, 2013.
+
+\bibitem{cvx}
+M.~Grant and S.~Boyd,
+\newblock ``{CVX}: Matlab software for disciplined convex programming, version
+  2.1,'' \url{http://cvxr.com/cvx}, Mar. 2014.
+
+\bibitem{Zhao1}
+Z.~Zhao and A.~Singer,
+\newblock ``Fourier {Bessel} rotational invariant eigenimages,''
+\newblock {\em J. Opt. Soc. Am. A}, vol. 30, no. 5, pp. 871--877, May 2013.
+
+\bibitem{chimera}
+E.~F. Pettersen, T.~D. Goddard, C.~C. Huang, G.~S. Couch, D.~M. Greenblatt,
+  E.~C. Meng, and T.~E. Ferrin,
+\newblock ``{UCSF Chimera--}a visualization system for exploratory research and
+  analysis,''
+\newblock {\em Journal of Computational Chemistry}, vol. 25, no. 13, pp.
+  1605--1612, 2004.
+
+\bibitem{fcr}
+P.~A. Penczek,
+\newblock ``Chapter three - resolution measures in molecular electron
+  microscopy,''
+\newblock in {\em Cryo-EM, Part B: 3-D Reconstruction}, Grant~J. Jensen, Ed.,
+  vol. 482 of {\em Methods in Enzymology}, pp. 73 -- 100. Academic Press, 2010.
+
+\end{thebibliography}

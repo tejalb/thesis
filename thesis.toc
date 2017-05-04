@@ -1,0 +1,76 @@
+\contentsline {section}{Abstract}{iii}
+\contentsline {section}{Publications}{v}
+\contentsline {section}{Acknowledgements}{vii}
+\contentsline {section}{List of Acronyms}{xii}
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction}{8}
+\contentsline {section}{\numberline {1.1}The Cryo-EM Revolution}{10}
+\contentsline {section}{\numberline {1.2}Algorithmic Overview of Single Particle Reconstruction}{11}
+\contentsline {subsection}{\numberline {1.2.1}Cryo-EM Software and Databases}{13}
+\contentsline {section}{\numberline {1.3}3D Ab-Initio and Homology Modeling}{14}
+\contentsline {section}{\numberline {1.4}Image Restoration}{16}
+\contentsline {section}{\numberline {1.5}Contributions}{18}
+\contentsline {chapter}{\numberline {2}Orthogonal Matrix Retrieval in Cryo-EM}{21}
+\contentsline {section}{\numberline {2.1}Introduction}{21}
+\contentsline {section}{\numberline {2.2}Kam's theory and the Orthogonal matrix retrieval problem}{23}
+\contentsline {subsection}{\numberline {2.2.1}Analogy with X-ray crystallography}{24}
+\contentsline {section}{\numberline {2.3}Orthogonal Extension (OE)}{25}
+\contentsline {section}{\numberline {2.4}Orthogonal Replacement (OR)}{26}
+\contentsline {subsection}{\numberline {2.4.1}Relaxation to a Semidefinite Program}{27}
+\contentsline {subsection}{\numberline {2.4.2}Exact Recovery and Resolution Limit}{29}
+\contentsline {section}{\numberline {2.5}Numerical experiments}{30}
+\contentsline {subsection}{\numberline {2.5.1}Clean and Noisy Projections}{30}
+\contentsline {subsection}{\numberline {2.5.2}Comparison between OE and OR}{32}
+\contentsline {section}{\numberline {2.6}Summary}{32}
+\contentsline {chapter}{\numberline {3}Denoising and Covariance Estimation of Single Particle Cryo-EM Images}{34}
+\contentsline {section}{\numberline {3.1}Introduction}{34}
+\contentsline {section}{\numberline {3.2}Methods}{37}
+\contentsline {subsection}{\numberline {3.2.1}The Model}{37}
+\contentsline {subsection}{\numberline {3.2.2}Covariance Estimation with Colored noise}{42}
+\contentsline {subsection}{\numberline {3.2.3}Fourier-Bessel Steerable PCA}{43}
+\contentsline {subsection}{\numberline {3.2.4}Wiener Filtering}{43}
+\contentsline {subsection}{\numberline {3.2.5}Computational Complexity}{44}
+\contentsline {section}{\numberline {3.3}Results}{45}
+\contentsline {subsection}{\numberline {3.3.1}Simulated Noisy Dataset with White Noise}{45}
+\contentsline {subsection}{\numberline {3.3.2}Simulated Noisy Dataset with Colored Noise}{48}
+\contentsline {subsection}{\numberline {3.3.3}Experimental Dataset - TRPV1}{52}
+\contentsline {subsection}{\numberline {3.3.4}Experimental Dataset - 80S ribosome}{53}
+\contentsline {subsection}{\numberline {3.3.5}Experimental Dataset - IP\textsubscript {3}R1}{53}
+\contentsline {subsection}{\numberline {3.3.6}Experimental Dataset - 70S ribosome}{53}
+\contentsline {subsection}{\numberline {3.3.7}Outlier Detection}{54}
+\contentsline {section}{\numberline {3.4}Conclusion}{57}
+\contentsline {chapter}{\numberline {4}Mahalanobis Distance for Class Averaging of Cryo-EM Images}{59}
+\contentsline {section}{\numberline {4.1}Introduction}{59}
+\contentsline {section}{\numberline {4.2}Background}{62}
+\contentsline {subsection}{\numberline {4.2.1}Image Formation Model}{62}
+\contentsline {subsection}{\numberline {4.2.2}Rotationally Invariant Class Averaging}{63}
+\contentsline {subsection}{\numberline {4.2.3}Covariance Wiener Filtering (CWF)}{63}
+\contentsline {section}{\numberline {4.3}Anisotropic Affinity}{64}
+\contentsline {section}{\numberline {4.4}Algorithm for Improved Class Averaging using Mahalanobis Distance}{67}
+\contentsline {section}{\numberline {4.5}Numerical experiments}{67}
+\contentsline {section}{\numberline {4.6}Discussion}{71}
+\contentsline {chapter}{\numberline {5}Anisotropic twicing for single particle reconstruction using autocorrelation analysis}{72}
+\contentsline {section}{\numberline {5.1}Introduction}{72}
+\contentsline {section}{\numberline {5.2}Orthogonal Extension (OE) in Cryo-EM}{78}
+\contentsline {section}{\numberline {5.3}The Least Squares Estimator}{81}
+\contentsline {subsection}{\numberline {5.3.1}Algorithm 1: Orthogonal Extension by Least Squares}{82}
+\contentsline {section}{\numberline {5.4}Unbiased Estimator: Anisotropic Twicing}{82}
+\contentsline {subsection}{\numberline {5.4.1}A family of estimators}{84}
+\contentsline {subsection}{\numberline {5.4.2}Generalization to the setting $N\not =D$}{85}
+\contentsline {section}{\numberline {5.5}Proof of Theorem~\ref {thm:main}}{86}
+\contentsline {subsection}{\numberline {5.5.1}Explicit expression of $\mathaccentV {hat}05E{\bm {A}}_{\text {LS}}$}{86}
+\contentsline {subsection}{\numberline {5.5.2}Expectation when $\bm {V}$ is uniformly distributed}{88}
+\contentsline {subsection}{\numberline {5.5.3}Lemmas}{89}
+\contentsline {section}{\numberline {5.6}Estimation of the Covariance and Autocorrelation Matrices}{90}
+\contentsline {subsection}{\numberline {5.6.1}Algorithm 2: Orthogonal Extension by Anisotropic Twicing}{91}
+\contentsline {section}{\numberline {5.7}Numerical Experiments}{91}
+\contentsline {subsection}{\numberline {5.7.1}Bias Variance Trade-off}{91}
+\contentsline {subsection}{\numberline {5.7.2}Synthetic Dataset: Toy Molecule}{93}
+\contentsline {subsection}{\numberline {5.7.3}Synthetic Dataset: TRPV1}{93}
+\contentsline {subsection}{\numberline {5.7.4}Experimental Dataset: TRPV1}{96}
+\contentsline {section}{\numberline {5.8}Conclusion}{100}
+\contentsline {chapter}{\numberline {6}Conclusion}{102}
+\contentsline {chapter}{\numberline {7}Appendix}{104}
+\contentsline {section}{\numberline {7.1}Singular Value Decomposition}{104}
+\contentsline {section}{\numberline {7.2}High Dimensional PCA and Random Matrix Theory}{105}
+\contentsline {subsection}{\numberline {7.2.1}BPP Transition in the Spike Model}{106}

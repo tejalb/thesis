@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: introduction.aux
+A level-1 auxiliary file: ur_draft_amit.aux
+A level-1 auxiliary file: jsb_submission.aux
+A level-1 auxiliary file: cwf_isbi.aux
+A level-1 auxiliary file: anisotropic.aux
+A level-1 auxiliary file: conclusion.aux
+A level-1 auxiliary file: appendix.aux
+The style file: abbrv.bst
+Database file #1: cwf_isbi_ref.bib
+Warning--I'm ignoring nature_method's extra "note" field
+--line 755 of file cwf_isbi_ref.bib
+Warning--I'm ignoring kuhlbrandt's extra "note" field
+--line 887 of file cwf_isbi_ref.bib
+Repeated entry---line 1044 of file cwf_isbi_ref.bib
+ : @article{relion
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1100 of file cwf_isbi_ref.bib
+ : @article{frealign
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1157 of file cwf_isbi_ref.bib
+ : @article{vanHeel1981
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1245 of file cwf_isbi_ref.bib
+ : @article{relion
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1557 of file cwf_isbi_ref.bib
+ : @article{zhao
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1589 of file cwf_isbi_ref.bib
+ : @article{spider
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1625 of file cwf_isbi_ref.bib
+ : @article{kam1980
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1671 of file cwf_isbi_ref.bib
+ : @article{zhao1
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring donoho's extra "year" field
+--line 1880 of file cwf_isbi_ref.bib
+Warning--I'm ignoring 80s_bai's extra "note" field
+--line 1920 of file cwf_isbi_ref.bib
+Warning--I didn't find a database entry for "VanHeel"
+Warning--to sort, need author or key in nature_method
+Name 1 in "M. Van Heel," has a comma at the end for entry vanHeel1987
+while executing---line 1049 of file abbrv.bst
+Name 1 in "A. S. Bandeira, and A. Singer, and D. A. Spielman" has a comma at the end for entry Cheeger
+while executing---line 1049 of file abbrv.bst
+Name 2 in "A. S. Bandeira, and A. Singer, and D. A. Spielman" has a comma at the end for entry Cheeger
+while executing---line 1049 of file abbrv.bst
+Name 1 in "B. K. Vainshtein, and A.B. Goncharov" has a comma at the end for entry Vainshtein
+while executing---line 1049 of file abbrv.bst
+Warning--to sort, need author or key in stein1956
+Warning--empty author in stein1956
+Warning--empty author in nature_method
+Name 1 in "A. S. Bandeira, and A. Singer, and D. A. Spielman" has a comma at the end for entry Cheeger
+while executing---line 1090 of file abbrv.bst
+Name 2 in "A. S. Bandeira, and A. Singer, and D. A. Spielman" has a comma at the end for entry Cheeger
+while executing---line 1090 of file abbrv.bst
+Warning--empty journal in cheng2013random
+Warning--empty booktitle in Han2000DataMC
+Name 1 in "M. Van Heel," has a comma at the end for entry vanHeel1987
+while executing---line 1090 of file abbrv.bst
+Warning--empty publisher in Klein1914
+Warning--can't use both volume and number fields in mah
+Name 1 in "B. K. Vainshtein, and A.B. Goncharov" has a comma at the end for entry Vainshtein
+while executing---line 1090 of file abbrv.bst
+(There were 16 error messages)

@@ -1,0 +1,184 @@
+\relax 
+\citation{cryoem_rev}
+\citation{rev2}
+\citation{nogales}
+\citation{sigworth_rev}
+\citation{kuhlbrandt}
+\citation{zhao}
+\citation{park}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Denoising and Covariance Estimation of Single Particle Cryo-EM Images}{34}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Introduction}{34}}
+\citation{Penczek_image}
+\citation{spider}
+\citation{eman2}
+\citation{imagic}
+\citation{imagic2}
+\citation{kam1980}
+\citation{Bhamre2014}
+\citation{Zhao1}
+\citation{Frankbook}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Methods}{37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}The Model}{37}}
+\newlabel{sec:model}{{3.2.1}{37}}
+\newlabel{eqn:model}{{3.1}{37}}
+\newlabel{eqn:model_f}{{3.2}{37}}
+\citation{sorzano1}
+\citation{sorzano2}
+\citation{box}
+\newlabel{eqn:exp_y}{{3.3}{38}}
+\citation{Katsevich2015CovarianceME}
+\newlabel{eqn:expectation_eq}{{3.4}{39}}
+\newlabel{eq:ls_mean}{{3.5}{39}}
+\newlabel{eq:ls_mean_sol}{{3.6}{39}}
+\newlabel{eqn:ls1}{{3.7}{39}}
+\citation{joakim}
+\newlabel{eqn:normal_white}{{3.8}{40}}
+\newlabel{eqn:cg}{{3.9}{40}}
+\citation{marcenko}
+\citation{knadler}
+\citation{donoho}
+\newlabel{eqn:pop1}{{3.11}{41}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Covariance Estimation with Colored noise}{42}}
+\newlabel{sec:covest_col}{{3.2.2}{42}}
+\newlabel{eqn:col_model}{{3.13}{42}}
+\newlabel{eqn:model_col}{{3.14}{42}}
+\citation{Zhao1}
+\citation{Zhao1}
+\citation{Zhao2016}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Fourier-Bessel Steerable PCA}{43}}
+\newlabel{sec:fb_basis}{{3.2.3}{43}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Wiener Filtering}{43}}
+\newlabel{sec:wf}{{3.2.4}{43}}
+\citation{wiener_deriv}
+\citation{Zhao1}
+\citation{Zhao2016}
+\citation{Zhao1}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Computational Complexity}{44}}
+\newlabel{sec:complexity}{{3.2.5}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Results}{45}}
+\newlabel{sec:results}{{3.3}{45}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Simulated Noisy Dataset with White Noise}{45}}
+\newlabel{sec:whitenoise}{{3.3.1}{45}}
+\citation{eman2}
+\newlabel{a}{{3.1b}{47}}
+\newlabel{sub@a}{{(b)}{b}}
+\newlabel{b}{{3.1c}{47}}
+\newlabel{sub@b}{{(c)}{c}}
+\newlabel{c}{{3.1d}{47}}
+\newlabel{sub@c}{{(d)}{d}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces \textbf  {Synthetic white noise}: A comparison of the denoising results of traditional Wiener filtering (TWF) and CWF for the synthetic dataset prepared from EMDB-6454, the P. falciparum 80S ribosome bound to E-tRNA. The dataset consists of 10000 images of size 105$\times $105, which are divided into 10 defocus groups, with the defocus value ranging from 1$\mu m$ to 4$\mu m$. The two rows in each subfigure correspond to two clean images belonging to different defocus groups; the first one belongs to the group with the smallest defocus value of 1$\mu m$, while the second image belongs to the group with the largest defocus value of 4$\mu m$. \relax }}{47}}
+\newlabel{fig:ims_6454}{{3.1}{47}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {SNR=$1$}}}{47}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {SNR=$1/20$}}}{47}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {SNR=$1/40$}}}{47}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {SNR=$1/60$}}}{47}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Simulated Noisy Dataset with Colored Noise}{48}}
+\newlabel{sec:colnoise}{{3.3.2}{48}}
+\newlabel{fig:mse_snr}{{3.2a}{49}}
+\newlabel{sub@fig:mse_snr}{{(a)}{a}}
+\newlabel{fig:mse_nims}{{3.2b}{49}}
+\newlabel{sub@fig:mse_nims}{{(b)}{b}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) \textbf  {Relative MSE versus the SNR, for a fixed number of images}: The relative MSE of the denoised images as a function of the SNR, for synthetic data generated using EMDB-6454. The MSE reported here is averaged over all images. \textit  {n} denotes the number of images used in the experiment.(b) \textbf  {Relative MSE versus the number of images, for a fixed SNR}: The relative MSE of the denoised images as a function of the number of images, for synthetic data generated using EMDB-6454. The MSE reported here is averaged over all images. \relax }}{49}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{49}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{49}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces \textbf  {Relative MSE of the estimated covariance versus the number of images}: The relative MSE of the estimated covariance $\mathaccentV {hat}05E\Sigma $, with and without using eigenvalue shrinkage, as a function of number of images, for synthetic data generated using EMDB-6454.\relax }}{50}}
+\newlabel{fig:shrinkage}{{3.3}{50}}
+\newlabel{}{{3.4b}{51}}
+\newlabel{sub@}{{(b)}{b}}
+\newlabel{}{{3.4c}{51}}
+\newlabel{sub@}{{(c)}{c}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces \textbf  {Synthetic colored noise}: Denoising results of CWF for the synthetic dataset with additive colored Gaussian noise, prepared from EMDB-6454, the P. falciparum 80S ribosome bound to E-tRNA, as detailed in the caption of Figure \ref  {fig:ims_6454}.\relax }}{51}}
+\newlabel{fig:ims_6454_colored}{{3.4}{51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {SNR=$1$}}}{51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {SNR=$1/10$}}}{51}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {SNR=$1/20$}}}{51}}
+\citation{trpv1_nature}
+\citation{trpv1_nature}
+\citation{trpv1_nature}
+\citation{80s_bai}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Experimental Dataset - TRPV1}{52}}
+\newlabel{sec:trpv1}{{3.3.3}{52}}
+\newlabel{}{{\caption@xref {}{ on input line 689}}{52}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces \textbf  {Denoising an experimental dataset of TRPV1 \cite  {trpv1_nature}}: Here we show, for three images in the dataset, the raw image, the closest true projection image generated from the 3D reconstruction of the molecule (EMDB 5778), the denoised image obtained using TWF, and the denoised image obtained using CWF. In this experiment, $35645$ images of size 256$\times $256 belonging to $935$ defocus groups were used. The amplitude contrast is $10\%$, the spherical aberration is $2$mm, and the voltage is $300$kV. \relax }}{52}}
+\newlabel{fig:trpv1}{{3.5}{52}}
+\citation{80s_bai}
+\citation{80s_bai}
+\citation{ip3_paper}
+\citation{ip3_paper}
+\citation{ip3_paper}
+\citation{70s_frank}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Experimental Dataset - 80S ribosome}{53}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}Experimental Dataset - IP\textsubscript  {3}R1}{53}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.6}Experimental Dataset - 70S ribosome}{53}}
+\citation{70s_frank}
+\citation{70s_frank}
+\newlabel{}{{\caption@xref {}{ on input line 727}}{54}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces \textbf  {Denoising an experimental dataset of the 80S ribosome \cite  {80s_bai}}: Here we show, for three images in the dataset, the raw image, the closest true projection image generated from the 3D reconstruction of the molecule (EMDB 2660), the denoised image obtained using TWF, and the denoised image obtained using CWF. In this experiment, the first $30000$ images out of the 105247 images in the dataset were used for covariance estimation. The images are of size 360$\times $360 and belong to $290$ defocus groups. The amplitude contrast is $10\%$, the spherical aberration is $2$mm, and the voltage is $300$kV. \relax }}{54}}
+\newlabel{fig:real80s}{{3.6}{54}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.7}Outlier Detection}{54}}
+\newlabel{}{{\caption@xref {}{ on input line 766}}{55}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces \textbf  {Denoising an experimental dataset of IP\textsubscript  {3}R1 \cite  {ip3_paper}}: Here we show, for three images in the dataset, the raw image, the closest true projection image generated from the 3D reconstruction of the molecule (EMDB 5278), the denoised image obtained using TWF, and the denoised image obtained using CWF. In this experiment, $37382$ images of size $256\times 256$ belonging to $851$ defocus groups were used. The amplitude contrast is $15\%$, the spherical aberration is $2$mm, and the voltage is $200$kV. \relax }}{55}}
+\newlabel{fig:ip3}{{3.7}{55}}
+\newlabel{eqn:contrast}{{3.19}{55}}
+\newlabel{}{{\caption@xref {}{ on input line 805}}{56}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces \textbf  {Denoising an experimental dataset of 70S \cite  {70s_frank}}: Here we show, for three images in the dataset, the raw image, the closest true projection image generated from the 3D reconstruction of the molecule (EMDB 5360), the denoised image obtained using TWF, and the denoised image obtained using CWF. In this experiment, the first $99979$ images out of the $216517$ images in the dataset were used for covariance estimation. The images are of size 250$\times $250 and belong to $38$ defocus groups. The amplitude contrast is $10\%$, the spherical aberration is $2.26$mm, and the voltage is $300$kV. \relax }}{56}}
+\newlabel{fig:real70s}{{3.8}{56}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Conclusion}{57}}
+\newlabel{fig:raw_outlier}{{3.9a}{58}}
+\newlabel{sub@fig:raw_outlier}{{(a)}{a}}
+\newlabel{fig:den_outlier}{{3.9b}{58}}
+\newlabel{sub@fig:den_outlier}{{(b)}{b}}
+\newlabel{fig:mean_image}{{3.9c}{58}}
+\newlabel{sub@fig:mean_image}{{(c)}{c}}
+\newlabel{fig:eigenims}{{3.9d}{58}}
+\newlabel{sub@fig:eigenims}{{(d)}{d}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces (a) \textbf  {Raw images}: A sample of synthetic data generated using EMDB-6454 with additive colored Gaussian noise at SNR=1/20.\ $10\%$ of the projection images are replaced by pure noise. The contrast parameter $\alpha $ ranges from 0.75 to 1.5. The outliers are shown in the last column. Inset in a yellow box is the contrast of each image. (b) \textbf  {Denoised images}: The denoised images using CWF. Notice the low contrast outliers in the last column. (c) \textbf  {Estimated Mean Image} (d) \textbf  {Top 6 eigenimages}: Inset in a yellow box is the corresponding eigenvalue.\relax }}{58}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {}}}{58}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {}}}{58}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {}}}{58}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {}}}{58}}
+\@setckpt{jsb_submission}{
+\setcounter{page}{59}
+\setcounter{equation}{19}
+\setcounter{enumi}{6}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{2}
+\setcounter{mpfootnote}{0}
+\setcounter{subyear}{2017}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{9}
+\setcounter{table}{0}
+\setcounter{parentequation}{0}
+\setcounter{float@type}{8}
+\setcounter{algorithm}{0}
+\setcounter{ALG@line}{0}
+\setcounter{ALG@rem}{0}
+\setcounter{ALG@nested}{0}
+\setcounter{ALG@Lnr}{2}
+\setcounter{ALG@blocknr}{10}
+\setcounter{ALG@storecount}{0}
+\setcounter{ALG@tmpcounter}{0}
+\setcounter{bigthm}{0}
+\setcounter{thm}{0}
+\setcounter{ContinuedFloat}{0}
+\setcounter{KVtest}{0}
+\setcounter{subfigure}{0}
+\setcounter{subfigure@save}{4}
+\setcounter{lofdepth}{1}
+\setcounter{subtable}{0}
+\setcounter{subtable@save}{0}
+\setcounter{lotdepth}{1}
+\setcounter{su@anzahl}{0}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+}

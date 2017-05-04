@@ -1,0 +1,259 @@
+% The following lines are provided in case you want to 
+% build this document using arara:
+% arara: pdflatex: { synctex: on }
+% arara: biber
+% arara: makeglossaries
+% arara: makeindex
+% arara: pdflatex: { synctex: on }
+% arara: pdflatex: { synctex: on }
+\documentclass[oneside,12pt]{scrbook}
+
+\usepackage{scrhack}
+
+\usepackage{amsmath}
+\usepackage[standard]{ntheorem}
+\usepackage[algo2e]{algorithm2e}
+\usepackage{siunitx}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{makeidx}
+\usepackage[backend=biber]{biblatex}
+
+\usepackage[toc,acronym]{glossaries}
+
+\newglossary[nlg]{notation}{not}{ntn}{Notation} 
+
+\makeindex
+\makeglossaries
+
+\newglossaryentry{matrix}% the label
+{name={matrix},% the term
+ description={a rectangular table of elements},% brief description
+ plural={matrices}% the plural
+}
+
+\newacronym{svm}{SVM}{support vector machine}
+
+\newglossaryentry{not:set}% label
+{%
+  type=notation,% glossary type
+  name={$\mathcal{S}$},%
+  description={A set},%
+  sort={S}%
+} 
+
+\addbibresource{thesis-refs.bib}
+
+\theoremstyle{break}
+\theorembodyfont{\normalfont}
+\newtheorem{algorithm}[algocf]{Algorithm}
+
+\usepackage{setspace}
+\usepackage{scrpage2}
+\usepackage{listings}
+
+\pagestyle{scrheadings}
+\ihead{}
+\chead{}
+\ohead[]{\headmark}
+\ifoot[123456789]{123456789}% registration number
+\cfoot[]{}
+\ofoot[\pagemark]{\pagemark}
+
+\renewcommand*{\headfont}{\normalfont \itshape}
+\renewcommand*{\pnumfont}{\normalfont \bfseries}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{1in}
+\begin{Large}\bfseries
+A Sample PhD Thesis\par
+\end{Large}
+\vspace{1.5in}
+\begin{large}\bfseries
+A. N. Other\par
+\end{large}
+\vfill
+A Thesis submitted for the degree of Doctor of Philosophy
+\par
+\vspace{0.5in}
+School of Something
+\par
+University of Somewhere
+\par
+\vspace{0.5in}
+July 2012
+\par
+\end{titlepage}
+
+\doublespacing
+
+\frontmatter
+\tableofcontents
+\listoffigures
+\listoftables
+\lstlistoflistings
+
+\chapter{Acknowledgements}
+
+I would like to thank my supervisor, Professor Someone. This
+research was funded by the Imaginary Research Council.
+
+\chapter{Abstract}
+
+A brief summary of the project goes here.
+
+\mainmatter
+
+\chapter{Introduction}
+\label{ch:intro}
+
+This is an example of how to use BiB\LaTeX.
+First of all, let's cite a book~\cite{wainwright93}
+now let's cite a journal paper and a conference
+proceedings~\cite{cawley96,talbot97}.
+Finally, let's cite a chapter in a book~\cite[Chapter 9]{goossens97}.
+
+\section{Acronyms, Terms and Symbols}
+
+\Glspl{matrix} are usually denoted by a bold capital letter, such as
+$\mathbf{A}$. The \gls{matrix}['s] $(i,j)$th element is usually
+denoted $a_{ij}$. \Gls{matrix} $\mathbf{I}$ is the identity
+\gls{matrix}. 
+
+First use: \gls{svm}\@. Next use: \gls{svm}\@. Short:
+\acrshort{svm}\@. Long: \acrlong{svm}. Full: \acrfull{svm}\@.
+
+A \gls{not:set} is a collection of objects.
+
+\chapter{Technical Introduction}
+\label{ch:techintro}
+
+\section{Listings}
+
+Some sample code is shown in Listing~\ref{lst:sample}.  
+This uses the function \lstinline"sqrt()"%
+\index{sqrt()@\texttt{sqrt()}}%
+\index{functions!sqrt()@\texttt{sqrt()}}%
+\index{square root|see{\texttt{sqrt()}}}.
+
+\lstset{language=C,basicstyle={\ttfamily\singlespacing}}
+\begin{lstlisting}[mathescape=true,caption={Sample},label={lst:sample}]
+#include <stdio.h> /* needed for printf */
+#include <math.h> /* needed for sqrt */
+
+int main()
+{
+   double x = sqrt(2.0); /* $x = \sqrt{2}$ */
+
+   printf("x = %f\n", x);
+
+   return 1;
+}
+\end{lstlisting} 
+
+\section{Theorems}
+
+\begin{Definition}[Tautology]
+A \emph{tautology}\index{tautology|textbf} is a proposition 
+that is always true for any value of its variables.
+\end{Definition}
+
+\begin{Definition}[Contradiction]
+A \emph{contradiction}\index{contradiction|textbf} is a 
+proposition that is always false for any
+value of its variables.
+\end{Definition}
+
+\begin{Theorem}
+If proposition $P$ is a tautology
+then $\sim P$ is a contradiction,
+and conversely.
+\end{Theorem}
+
+\begin{Example}\label{ex:rain}
+``It is raining or it is not raining'' is a tautology,
+but ``it is not raining and it is raining'' is a contradiction.
+\end{Example}
+
+\begin{Remark}
+Example~\ref{ex:rain} used De Morgan’s Law
+$\sim (p \vee q) \equiv \sim p \wedge \sim q$.
+\end{Remark}
+
+\section{Algorithms}
+
+Using algorithm (theorem-like) and tabbing environments:
+
+\begin{algorithm}[Gauss-Seidel Algorithm]
+\begin{tabbing}
+1. \=For $k=1$ to maximum number of iterations\\
+\>2. For \=$i=1$ to $n$\\
+\>\>Set
+\begin{math}
+x_i^{(k)} =
+\frac{b_i-\sum_{j=1}^{i-1}a_{ij}x_j^{(k)}
+-\sum_{j=i+1}^{n}a_{ij}x_j^{(k-1)}}%
+{a_{ii}}
+\end{math}
+\\
+\>3. If $\lvert\vec{x}^{(k)}-\vec{x}^{(k-1)}\rvert < \epsilon$,
+where $\epsilon$ is a specified stopping criteria, stop.
+\end{tabbing}
+\end{algorithm}
+
+Using floating algorithm2e environment:
+
+\begin{algorithm2e}
+\caption{Gauss-Seidel Algorithm}\label{alg:gauss-seidel}
+\For{$k\leftarrow 1$ \KwTo maximum iterations}
+{
+   \For{$i\leftarrow 1$ \KwTo $n$}
+   {
+     $
+      x_i^{(k)} =
+      \frac{b_i-\sum_{j=1}^{i-1}a_{ij}x_j^{(k)}
+      -\sum_{j=i+1}^{n}a_{ij}x_j^{(k-1)}}%
+      {a_{ii}}
+      $\;
+   }
+   \If{$\lvert\vec{x}^{(k)}-\vec{x}^{(k-1)}\rvert < \epsilon$}{Stop}
+}
+\end{algorithm2e}
+
+
+\chapter{Method}
+\label{ch:method}
+
+The distance was measured in \si{\kilo\metre} and the area in
+\si{\kilo\metre\squared}. The acceleration was given in
+\si{\metre\per\square\second}.
+
+\chapter{Results}
+\label{ch:results}
+
+Out of \num{12890} experiments, \num{1289} of them had a mean
+squared error of \num{.346} and \num{128} of them had a mean
+squared error of \num{1.23e-6}.
+
+The acceleration was approximately
+\SI{9.78}{\metre\per\square\second}.
+
+
+\chapter{Conclusions}
+\label{ch:conc}
+
+
+\backmatter
+
+\printglossaries
+
+\printbibliography
+
+\printindex
+
+\end{document}

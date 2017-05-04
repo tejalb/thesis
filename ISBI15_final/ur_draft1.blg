@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ur_draft1.aux
+The style file: IEEEbib.bst
+Database file #1: ur_draft1.bib
+Name 1 in "P. Penczek, R.A. Grassucci, and J. Frank" has a comma at the end for entry Penczek
+while executing---line 1012 of file IEEEbib.bst
+You've used 13 entries,
+            1838 wiz_defined-function locations,
+            555 strings with 5951 characters,
+and the built_in function-call counts, 3100 in all, are:
+= -- 294
+> -- 103
+< -- 2
++ -- 40
+- -- 27
+* -- 270
+:= -- 488
+add.period$ -- 15
+call.type$ -- 13
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 118
+empty$ -- 315
+format.name$ -- 27
+if$ -- 693
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 13
+newline$ -- 67
+num.names$ -- 15
+pop$ -- 27
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 38
+stack$ -- 0
+substring$ -- 279
+swap$ -- 24
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 31
+width$ -- 15
+write$ -- 145
+(There was 1 error message)

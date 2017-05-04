@@ -1,0 +1,89 @@
+\begin{thebibliography}{10}
+
+\bibitem{Radermacher}
+A.~Verschoor M.~Radermacher, T.~Wagenknecht and J.~Frank,
+\newblock ``Three-dimensional reconstruction from a single-exposure, random
+  conical tilt series applied to the 50s ribosomal subunit of escherichia
+  coli,''
+\newblock {\em Journal of Microscopy}, vol. 146, no. 2, pp. 113--136, 1987.
+
+\bibitem{Radermacher2}
+A.~Verschoor M.~Radermacher, T.~Wagenknecht and J.~Frank,
+\newblock ``{Three-dimensional structure of the large ribosomal subunit from
+  Escherichia coli},''
+\newblock {\em EMBO J}, vol. 6, no. 4, pp. 1107--14, 1987.
+
+\bibitem{Salzman}
+D.B. Salzman,
+\newblock ``A method of general moments for orienting 2d projections of unknown
+  3d objects,''
+\newblock {\em Comput. Vision Graph. Image Process.}, vol. 50, no. 2, pp.
+  129--156, May 1990.
+
+\bibitem{Goncharov}
+A.B. Goncharov,
+\newblock ``Integral geometry and three-dimensional reconstruction of randomly
+  oriented identical particles from their electron microphotos,''
+\newblock {\em Acta Applicandae Mathematicae}, vol. 11, pp. 199--211, 1988.
+
+\bibitem{Penczek}
+R.A.~Grassucci P.~Penczek and J.~Frank,
+\newblock ``The ribosome at improved resolution: New techniques for merging and
+  orientation refinement in 3d cryo-electron microscopy of biological
+  particles,''
+\newblock {\em Ultramicroscopy}, vol. 53, no. 3, pp. 251 -- 270, 1994.
+
+\bibitem{Zhao}
+Z.~Zhao and A.~Singer,
+\newblock ``Rotationally invariant image representation for viewing direction
+  classification in cryo-em,''
+\newblock {\em Journal of Structural Biology}, vol. 186, no. 1, pp. 153 -- 166,
+  2014.
+
+\bibitem{kam1980}
+Z.~Kam,
+\newblock ``The reconstruction of structure from electron micrographs of
+  randomly oriented particles,''
+\newblock {\em Journal of Theoretical Biology}, vol. 82, no. 1, pp. 15 -- 39,
+  1980.
+
+\bibitem{Zhao1}
+Z.~Zhao and A.~Singer,
+\newblock ``Fourier bessel rotational invariant eigenimages,''
+\newblock {\em J. Opt. Soc. Am. A}, vol. 30, no. 5, pp. 871--877, May 2013.
+
+\bibitem{cvx}
+Michael Grant and Stephen Boyd,
+\newblock ``{CVX}: Matlab software for disciplined convex programming, version
+  2.1,'' Mar. 2014.
+
+\bibitem{keller}
+J.~B. Keller,
+\newblock ``Closest unitary, orthogonal and {Hermitian} operators to a given
+  operator,''
+\newblock {\em Mathematics Magazine}, vol. 48, pp. 192--197, 1975.
+
+\bibitem{chimera}
+Eric~F. Pettersen, Thomas~D. Goddard, Conrad~C. Huang, Gregory~S. Couch,
+  Daniel~M. Greenblatt, Elaine~C. Meng, and Thomas~E. Ferrin,
+\newblock ``{UCSF Chimera--}a visualization system for exploratory research and
+  analysis,''
+\newblock {\em Journal of Computational Chemistry}, vol. 25, no. 13, pp.
+  1605--1612, 2004.
+
+\bibitem{fcr}
+Pawel~A. Penczek,
+\newblock ``Chapter three - resolution measures in molecular electron
+  microscopy,''
+\newblock in {\em Cryo-EM, Part B: 3-D Reconstruction}, Grant~J. Jensen, Ed.,
+  vol. 482 of {\em Methods in Enzymology}, pp. 73 -- 100. Academic Press, 2010.
+
+\bibitem{ben2001lectures}
+A.~Ben-Tal and A.~Nemirovski,
+\newblock {\em Lectures on Modern Convex Optimization: Analysis, Algorithms,
+  and Engineering Applications},
+\newblock MPS-SIAM Series on Optimization. Society for Industrial and Applied
+  Mathematics (SIAM, 3600 Market Street, Floor 6, Philadelphia, PA 19104),
+  2001.
+
+\end{thebibliography}

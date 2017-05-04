@@ -1,0 +1,44 @@
+\chapter{Appendix}
+\section{Singular Value Decomposition}
+The Singular Value Decomposition (SVD) of a matrix $A\in \mathbb{R}^{m\times n}$ is given by
+
+\begin{equation}
+A=U\Sigma V^T
+\end{equation}
+where $U$ is an $m \times m$ orthogonal matrix, $V$ is an $n \times n$ orthogonal matrix, and $\Sigma=\text{diag}(\sigma_1,\sigma_2,\ldots,\sigma_p)$ ($p=\text{min}\{m,n\}$) is an $m \times n$ diagonal matrix.
+
+The `best' rank-$k$ approximation of a matrix in terms of the operator norm is given by its SVD. $A_k=U\Sigma_k Y^T$, where $\Sigma_k=\text{diag}(\sigma_1,\sigma_2,\ldots,\sigma_k,0,\ldots,0)$ is a diagonal matrix containing the largest $k$ singular values, is a rank-$k$ matrix such that
+\begin{equation}
+||A-A_k|| = \min_{\text{rank}(B)=k} ||A-B||.
+\end{equation}
+In fact, the SVD provides the best rank-$k$ approximation for any unitarily invariant norm \cite{matrixanal}.
+
+For a square $n \times n$ matrix $A$, its closest orthogonal matrix $O$ in the Frobenius norm sense \cite{Keller1975} is given by $O=UV^T$, that is,
+\begin{equation}
+||A-UV^T||_F = \min_{OO^T=O^TO=I}||A-O||_F.
+\end{equation}
+
+\section{High Dimensional PCA and Random Matrix Theory}
+We list a few results from random matrix theory and high dimensional PCA that have been employed in the work in this thesis.
+
+Principal Component Analysis (PCA) is a linear dimensionality reduction methods popular in data analysis. The goal in PCA is to find an orthogonal transformation of the data after centering to a lower dimensional space with maximum variability captured. Given a data set that consists of $n$ vectors $x_1, x_2, \dots \in \mathbb{R}^p$, PCA returns a basis that is dependent on the dataset, whose elements are called the `principal components' \cite{Han2000DataMC}.
+
+Typically, PCA in classical applications is restricted to the domain of fixed dimensionality $p$ and $n \rightarrow \infty$. In most modern problems, however, $p$ and $n$ are comparable. This is what we call the `high dimensionality' regime. Stein showed that the empirical covariance matrix can be improved by appropriate shrinkage of its eigenvalues \cite{stein1956}. Given the data matrix $X$ whose columns are the data vectors $x_1, x_2, \ldots x_n$, the sample covariance matrix $\Sigma_n$ is
+
+\begin{equation}
+\Sigma_n=\frac{1}{n}XX^T.
+\end{equation}
+
+For random vectors $x_1, x_2, \ldots x_n \in \mathbb{R}^p$ which are i.i.d. samples drawn from $\mathbb{N}(0,I_{p \times p})$, the distribution of such $p \times p$ random matrices $X$ is the Wishart distribution. When $p$ is fixed and $n \rightarrow \infty$ as in the classical case, by the law of large numbers, the eigenvalues of $\Sigma_n$ concentrate around $1$.
+
+In the non-classical case, when $p$ and $n$ both grow such that $p/n \rightarrow \gamma$ and $0<\gamma\leq 1$, the limiting spectral density of the eigenvalues converges to the Mar\v{c}enko Pastur (MP) distribution \cite{marcenko},
+given by
+
+\begin{equation}
+MP(x) = \frac{1}{2\pi}\frac{\sqrt{(\gamma_+ - x)(x - \gamma_-)}}{\gamma x}1_{[\gamma_-,\gamma_+]}, \quad \gamma_{\pm} =(1 \pm \sqrt{\gamma})^2 
+\end{equation}
+for $\gamma \leq 1$.
+
+\subsection{BPP Transition in the Spike Model}
+
+The spike model $\Sigma=I+\beta vv^T$, where $v$ is a unit norm vector and $\beta>0$, is used to analyze when $\Sigma$ is an identity with a rank $1$ perturbation. There is a critical value of $\beta$ below which no change is expected to se been in the distribution of eigenvalues, and above which at least one of the eigenvalues pops out of the support. This is called the BPP transition \cite{bpp}.

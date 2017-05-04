@@ -1,0 +1,161 @@
+\begin{thebibliography}{10}
+
+\bibitem{cwf}
+T.~Bhamre, T.~Zhang, and A.~Singer.
+\newblock Denoising and covariance estimation of single particle cryo-{EM}
+  images.
+\newblock {\em Journal of Structural Biology}, 195(1):72 -- 81, 2016.
+
+\bibitem{difmap}
+R.~Coifman and S.~Lafon.
+\newblock Diffusion maps.
+\newblock {\em Applied and Computational Harmonic Analysis}, 21(1):5 -- 30,
+  2006.
+
+\bibitem{Dube1993}
+P.~Dube, P.~Tavares, R.~Lurz, and M.~van Heel.
+\newblock Bacteriophage {SPP}1 portal protein: a {DNA} pump with 13-fold
+  symmetry.
+\newblock {\em EMBO J.}, 15:1303--1309, 1993.
+
+\bibitem{frankbook}
+J.~Frank.
+\newblock Electron microscopy of macromolecular assemblies.
+\newblock In J.~Frank, editor, {\em Three-Dimensional Electron Microscopy of
+  Macromolecular Assemblies}, pages 12 -- 53. Academic Press, Burlington, 1996.
+
+\bibitem{Frank1}
+J.~Frank.
+\newblock {\em Three-Dimensional Electron Microscopy of Macromolecular
+  Assemblies : Visualization of Biological Molecules in Their Native State:
+  Visualization of Biological Molecules in Their Native State}.
+\newblock Oxford University Press, USA, 2006.
+
+\bibitem{gpurelion}
+D.~Kimanius, B.~O. Forsberg, S.~Scheres, and E.~Lindahl.
+\newblock Accelerated cryo-{EM} structure determination with parallelisation
+  using {GPU}s in {RELION}-2.
+\newblock {\em bioRxiv}, 2016.
+
+\bibitem{Kuhlbrandt1443}
+W.~K{\"u}hlbrandt.
+\newblock The resolution revolution.
+\newblock {\em Science}, 343(6178):1443--1444, 2014.
+
+\bibitem{mah}
+P.~C. Mahalanobis.
+\newblock {On the generalised distance in statistics}.
+\newblock In {\em Proceedings National Institute of Science, India}, volume~2,
+  pages 49--55, Apr. 1936.
+
+\bibitem{xmipp}
+R.~Marabini, I.~M. Masegosa, M.~S. Mart\'in, S.~Marco, J.~Fernández, L.~de~la
+  Fraga, C.~Vaquerizo, and J.~Carazo.
+\newblock Xmipp: An image processing package for electron microscopy.
+\newblock {\em Journal of Structural Biology}, 116(1):237 -- 240, 1996.
+
+\bibitem{chirikjian1}
+W.~Park and G.~Chirikjian.
+\newblock An assembly automation approach to alignment of noncircular
+  projections in electron microscopy.
+\newblock {\em IEEE Transactions on Automation Science and Engineering},
+  11(3):668--679, 1 2014.
+
+\bibitem{chirikjian2}
+W.~Park, C.~R. Midgett, D.~R. Madden, and G.~S. Chirikjian.
+\newblock A stochastic kinematic model of class averaging in single-particle
+  electron microscopy.
+\newblock {\em I. J. Robotics Res.}, 30:730--754, 2011.
+
+\bibitem{Penczek1992}
+P.~A. Penczek, M.~Radermacher, and J.~Frank.
+\newblock Three-dimensional reconstruction of single particles embedded in ice.
+\newblock {\em Ultramicroscopy}, 40:33--53, 1992.
+
+\bibitem{Penczek1996}
+P.~A. Penczek, J.~Zhu, and J.~Frank.
+\newblock A common-lines based method for determining orientations for {$N>3$}
+  particle projections simultaneously.
+\newblock {\em Ultramicroscopy}, 63(3-4):205--218, 1996.
+
+\bibitem{rokhlin}
+V.~Rokhlin, A.~Szlam, and M.~Tygert.
+\newblock A randomized algorithm for principal component analysis.
+\newblock {\em SIAM Journal on Matrix Analysis and Applications},
+  31(3):1100--1124, 2010.
+
+\bibitem{vanHeel1990a}
+M.~Schatz and M.~van Heel.
+\newblock Invariant classification of molecular views in electron micrographs.
+\newblock {\em Ultramicroscopy}, 32:255--264, 1990.
+
+\bibitem{relion}
+S.~H.~W. Scheres.
+\newblock {RELION}: Implementation of a bayesian approach to cryo-em structure
+  determination.
+\newblock {\em Journal of Structural Biology}, 180(3):519 -- 530, 2012.
+
+\bibitem{spider}
+T.~R. Shaikh, H.~Gao, W.~T. Baxter, F.~J. A., N.~Boisset, A.~Leith, and
+  J.~Frank.
+\newblock {SPIDER} image processing for single-particle reconstruction of
+  biological macromolecules from electron micrographs.
+\newblock {\em Nature Protocols}, 3(12):1941--1974, 2008.
+
+\bibitem{nlica}
+A.~Singer and R.~R. Coifman.
+\newblock Non-linear independent component analysis with diffusion maps.
+\newblock {\em Applied and Computational Harmonic Analysis}, 25(2):226 -- 239,
+  2008.
+
+\bibitem{vdm}
+A.~Singer and H.-T. Wu.
+\newblock Vector diffusion maps and the connection {L}aplacian.
+\newblock {\em Communications on Pure and Applied Mathematics},
+  65(8):1067--1144, 2012.
+
+\bibitem{intgeom}
+R.~Talmon and R.~R. Coifman.
+\newblock Empirical intrinsic geometry for nonlinear modeling and time series
+  filtering.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  110(31):12535--12540, 2013.
+
+\bibitem{eman2}
+G.~Tang, L.~Peng, P.~R. Baldwin, D.~S. Mann, W.~Jiang, I.~Rees, and S.~J.
+  Ludtke.
+\newblock {EMAN2}: An extensible image processing suite for electron
+  microscopy.
+\newblock {\em Journal of Structural Biology}, 157:38 -- 46, 2007.
+\newblock Software tools for macromolecular microscopy.
+
+\bibitem{vanHeel1981}
+M.~{van Heel} and J.~Frank.
+\newblock Use of multivariate statistics in analysing the images of biological
+  macromolecules.
+\newblock {\em Ultramicroscopy}, 6(2):187--194, 1981.
+
+\bibitem{imagic}
+M.~{van Heel}, G.~Harauz, E.~V. Orlova, R.~Schmidt, and M.~Schatz.
+\newblock A new generation of the {IMAGIC} image processing system.
+\newblock {\em Journal of Structural Biology}, 116(1):17 -- 24, 1996.
+
+\bibitem{mahclust1}
+S.~Xiang, F.~Nie, and C.~Zhang.
+\newblock Learning a {M}ahalanobis distance metric for data clustering and
+  classification.
+\newblock {\em Pattern Recognition}, 41(12):3600 -- 3612, 2008.
+
+\bibitem{mahclust2}
+X.~Zhao, Y.~Li, and Q.~Zhao.
+\newblock Mahalanobis distance based on fuzzy clustering algorithm for image
+  segmentation.
+\newblock {\em Digit. Signal Process.}, 43(C):8--16, Aug. 2015.
+
+\bibitem{zhao}
+Z.~Zhao and A.~Singer.
+\newblock Rotationally invariant image representation for viewing direction
+  classification in cryo-{EM}.
+\newblock {\em Journal of Structural Biology}, 186(1):153 -- 166, 2014.
+
+\end{thebibliography}

@@ -1,0 +1,279 @@
+@misc{cvx,
+  author       = {Michael Grant and Stephen Boyd},
+  title        = {{CVX}: Matlab Software for Disciplined Convex Programming, version 2.1},
+  howpublished = {\url{http://cvxr.com/cvx}},
+  month        = mar,
+  year         = 201
+
+@article{chimera,
+  author       = {Pettersen EF, Goddard TD, Huang CC, Couch GS, Greenblatt DM, Meng EC, Ferrin TE},
+  title        = {UCSF Chimera--a visualization system for exploratory research and analysis},
+  journal      ={J Comput Chem.}
+  month        = Oct,
+  year         = 2004
+}
+
+
+@book{ben2001lectures,
+  title={Lectures on Modern Convex Optimization: Analysis, Algorithms, and Engineering Applications},
+  author={Ben-Tal, A. and Nemirovski, A.},
+  isbn={9780898718829},
+  series={MPS-SIAM Series on Optimization},
+  url={http://books.google.com/books?id=CENjbXz2SDQC},
+  year={2001},
+  publisher={Society for Industrial and Applied Mathematics (SIAM, 3600 Market Street, Floor 6, Philadelphia, PA 19104)}
+}
+
+
+@article{keller,
+author = {J. B. Keller},
+title = {Closest unitary, orthogonal and {Hermitian} operators
+                 to a given operator},
+journal = {Mathematics Magazine},
+volume = {48},
+year = {1975},
+issn = {0025-570X},
+pages = {192-197},
+}
+
+@incollection{fcr,
+title = "Chapter Three - Resolution Measures in Molecular Electron Microscopy ",
+editor = "Grant J. Jensen",
+booktitle = "Cryo-EM, Part B: 3-D Reconstruction",
+publisher = "Academic Press",
+year = "2010",
+volume = "482",
+pages = "73 - 100",
+series = "Methods in Enzymology ",
+issn = "0076-6879",
+doi = "http://dx.doi.org/10.1016/S0076-6879(10)82003-8",
+url = "http://www.sciencedirect.com/science/article/pii/S0076687910820038",
+author = "Pawel A. Penczek",
+abstract = "Abstract Resolution measures in molecular electron microscopy provide means to evaluate quality of macromolecular structures computed from sets of their two-dimensional (2D) line projections. When the amount of detail in the computed density map is low there are no external standards by which the resolution of the result can be judged. Instead, resolution measures in molecular electron microscopy evaluate consistency of the results in reciprocal space and present it as a one-dimensional (1D) function of the modulus of spatial frequency. Here we provide description of standard resolution measures commonly used in electron microscopy. We point out that the organizing principle is the relationship between these measures and the spectral signal-to-noise ratio (SSNR) of the computed density map. Within this framework it becomes straightforward to describe the connection between the outcome of resolution evaluations and the quality of electron microscopy maps, in particular, the optimum filtration, in the Wiener sense, of the computed map. We also provide a discussion of practical difficulties of evaluation of resolution in electron microscopy, particularly in terms of its sensitivity to data processing operations used during structure determination process in single particle analysis and in electron tomography (ET). "
+}
+
+@book{Frank1,
+  author = "J. Frank",
+  title  =  "Three-Dimensional Electron Microscopy of Macromolecular Assemblies : Visualization of Biological Molecules in Their Native State: Visualization of Biological Molecules in Their Native State",
+  publisher = {Oxford University Press, USA},
+  year   = 2006                                           }
+
+@article{Henderson,
+author = {R. Henderson},
+title = {Realizing the potential of electron cryo-microscopy},
+journal = {Quarterly Reviews of Biophysics},
+volume = {37},
+issue = {01},
+month = {2},
+year = {2004},
+issn = {1469-8994},
+pages = {3--13},
+numpages = {11},
+doi = {10.1017/S0033583504003920},
+URL = {http://journals.cambridge.org/article_S0033583504003920},
+}
+
+@article {Ludtke,
+	Title = {De novo backbone trace of GroEL from single particle electron cryomicroscopy},
+	Author = {S.J. Ludtke, and Baker, ML and Chen, DH and Song, JL and Chuang, DT and Chiu, W},
+	DOI = {10.1016/j.str.2008.02.007},
+	Number = {3},
+	Volume = {16},
+	Month = {March},
+	Year = {2008},
+	Journal = {Structure (London, England : 1993)},
+	ISSN = {0969-2126},
+	Pages = {441—448},
+	URL = {http://europepmc.org/abstract/MED/18334219}
+}
+
+@article{Zhang,
+author = {X. Zhang, and E. Settembre, C. Xu, P. R. Dormitzer, R. Bellamy, S. C. Harrison, and N. Grigorieff},
+title = {Near-atomic resolution using electron cryomicroscopy and single-particle reconstruction},
+volume = {105},
+number = {6},
+pages = {1867-1872},
+year = {2008},
+doi = {10.1073/pnas.0711623105},
+abstract ={Electron cryomicroscopy (cryo-EM) yields images of macromolecular assemblies and their components, from which 3D structures can be determined, by using an image processing method commonly known as “single-particle reconstruction.” During the past two decades, this technique has become an important tool for 3D structure determination, but it generally has not been possible to determine atomic models. In principle, individual molecular images contain high-resolution information contaminated by a much higher level of noise. In practice, it has been unclear whether current averaging methods are adequate to extract this information from the background. We present here a reconstruction, obtained by using recently developed image processing methods, of the rotavirus inner capsid particle (“double-layer particle” or DLP) at a resolution suitable for interpretation by an atomic model. The result establishes single-particle reconstruction as a high-resolution technique. We show by direct comparison that the cryo-EM reconstruction of viral protein 6 (VP6) of the rotavirus DLP is similar in clarity to a 3.8-Å resolution map obtained from x-ray crystallography. At this resolution, most of the amino acid side chains produce recognizable density. The icosahedral symmetry of the particle was an important factor in achieving this resolution in the cryo-EM analysis, but as the size of recordable datasets increases, single-particle reconstruction also is likely to yield structures at comparable resolution from samples of much lower symmetry. This potential has broad implications for structural cell biology.},
+URL = {http://www.pnas.org/content/105/6/1867.abstract},
+eprint = {http://www.pnas.org/content/105/6/1867.full.pdf+html},
+journal = {Proceedings of the National Academy of Sciences}
+}
+
+@article{Chiu,
+title = "Electron Cryomicroscopy of Biological Machines at Subnanometer Resolution ",
+journal = "Structure ",
+volume = "13",
+number = "3",
+pages = "363 - 372",
+year = "2005",
+note = "",
+issn = "0969-2126",
+doi = "http://dx.doi.org/10.1016/j.str.2004.12.016",
+url = "http://www.sciencedirect.com/science/article/pii/S0969212605000699",
+author = "W. Chiu, M. L. Baker, W. Jiang, M. Dougherty and M. F. Schmid"
+}
+
+@article {Radermacher,
+author = {M. Radermacher, T. Wagenknecht, A. Verschoor and J. Frank},
+title = {Three-dimensional reconstruction from a single-exposure, random conical tilt series applied to the 50S ribosomal subunit of Escherichia coli},
+journal = {Journal of Microscopy},
+volume = {146},
+number = {2},
+publisher = {Blackwell Publishing Ltd},
+issn = {1365-2818},
+url = {http://dx.doi.org/10.1111/j.1365-2818.1987.tb01333.x},
+doi = {10.1111/j.1365-2818.1987.tb01333.x},
+pages = {113--136},
+keywords = {Three-dimensional reconstruction, 50S ribosomal subunit, low-dose electron microscopy, image processing},
+year = {1987},
+}
+
+@article{Radermacher2,
+    author = {M. Radermacher, T. Wagenknecht, A. Verschoor and J. Frank},
+    citeulike-article-id = {6519379},
+    citeulike-linkout-0 = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve\&\#38;db=PubMed\&\#38;dopt=Citation\&\#38;list\_uids=3297672},
+    journal = {EMBO J},
+    keywords = {03-03-2010},
+    number = {4},
+    pages = {1107--14},
+    pdf = {J:\\Documents\\Literature\\EMBO\\RadermacherEJ87.pdf},
+    posted-at = {2010-01-11 16:50:44},
+    priority = {2},
+    title = {{Three-dimensional structure of the large ribosomal subunit from Escherichia coli}},
+    url = {http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=Retrieve\&db=PubMed\&dopt=Citation\&list\_uids=3297672},
+    volume = {6},
+    year = {1987}
+}
+@article{Goncharov,
+author = {A.B. Goncharov},
+title = {Integral Geometry and Three-Dimensional Reconstruction of Randomly Oriented Identical Particles from their Electron Microphotos},
+journal = {Acta Applicandae Mathematicae},
+    volume = {11},
+pages = {199-211},
+    year = {1988}
+}
+
+@article{Salzman,
+ author = {D.B. Salzman},
+ title = {A Method of General Moments for Orienting 2D Projections of Unknown 3D Objects},
+ journal = {Comput. Vision Graph. Image Process.},
+ issue_date = {May 1990},
+ volume = {50},
+ number = {2},
+ month = may,
+ year = {1990},
+ issn = {0734-189X},
+ pages = {129--156},
+ numpages = {28},
+ url = {http://dx.doi.org/10.1016/0734-189X(90)90038-W},
+ doi = {10.1016/0734-189X(90)90038-W},
+ acmid = {81946},
+ publisher = {Academic Press Professional, Inc.},
+ address = {San Diego, CA, USA},
+}
+
+@article{Penczek,
+title = "The ribosome at improved resolution: New techniques for merging and orientation refinement in 3D cryo-electron microscopy of biological particles ",
+journal = "Ultramicroscopy ",
+volume = "53",
+number = "3",
+pages = "251 - 270",
+year = "1994",
+note = "",
+issn = "0304-3991",
+doi = "http://dx.doi.org/10.1016/0304-3991(94)90038-8",
+url = "http://www.sciencedirect.com/science/article/pii/0304399194900388",
+author = "P. Penczek, R.A. Grassucci, and J. Frank"
+}
+
+@article{VanHeel,
+title = "Angular reconstitution: A posteriori assignment of projection directions for 3D reconstruction ",
+journal = "Ultramicroscopy ",
+volume = "21",
+number = "2",
+pages = "111 - 123",
+year = "1987",
+note = "",
+issn = "0304-3991",
+doi = "http://dx.doi.org/10.1016/0304-3991(87)90078-7",
+url = "http://www.sciencedirect.com/science/article/pii/0304399187900787",
+author = "M. Van Heel"
+}
+
+@ARTICLE{Vainshtein,
+   author = {B. K. Vainshtein, and A.B. Goncharov},
+    title = "{Determination of the spatial orientation of arbitrarily arranged identical particles of unknown structure from their projections}",
+  journal = {Soviet Physics Doklady},
+     year = 1986,
+    month = apr,
+   volume = 31,
+    pages = {278},
+   adsurl = {http://adsabs.harvard.edu/abs/1986SPhD...31..278V},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{Zhao,
+title = "Rotationally invariant image representation for viewing direction classification in cryo-EM ",
+journal = "Journal of Structural Biology ",
+volume = "186",
+number = "1",
+pages = "153 - 166",
+year = "2014",
+note = "",
+issn = "1047-8477",
+doi = "http://dx.doi.org/10.1016/j.jsb.2014.03.003",
+url = "http://www.sciencedirect.com/science/article/pii/S1047847714000549",
+author = "Z. Zhao and A. Singer",
+keywords = "Cryo-EM",
+keywords = "2D classification",
+keywords = "Single particle reconstruction "
+}
+
+@inproceedings{So,
+ author = {A. Man-Cho So},
+ title = {Probabilistic Analysis of the Semidefinite Relaxation Detector in Digital Communications},
+ booktitle = {Proceedings of the Twenty-first Annual ACM-SIAM Symposium on Discrete Algorithms},
+ series = {SODA '10},
+ year = {2010},
+ isbn = {978-0-898716-98-6},
+ location = {Austin, Texas},
+ pages = {698--711},
+ numpages = {14},
+ url = {http://dl.acm.org/citation.cfm?id=1873601.1873658},
+ acmid = {1873658},
+ publisher = {Society for Industrial and Applied Mathematics},
+ address = {Philadelphia, PA, USA},
+}
+@article{kam1980,
+title = "The reconstruction of structure from electron micrographs of randomly oriented particles ",
+journal = "Journal of Theoretical Biology ",
+volume = "82",
+number = "1",
+pages = "15 - 39",
+year = "1980",
+note = "",
+issn = "0022-5193",
+doi = "http://dx.doi.org/10.1016/0022-5193(80)90088-0",
+url = "http://idc311-www.sciencedirect.com/science/article/pii/0022519380900880",
+author = "Z. Kam"
+}
+
+
+
+@article{Zhao1,
+author = {Z. Zhao and A. Singer},
+journal = {J. Opt. Soc. Am. A},
+keywords = {Image processing; Microscopy; Image recognition, algorithms and filters},
+number = {5},
+pages = {871--877},
+publisher = {OSA},
+title = {Fourier Bessel rotational invariant eigenimages},
+volume = {30},
+month = {May},
+year = {2013},
+url = {http://josaa.osa.org/abstract.cfm?URI=josaa-30-5-871},
+doi = {10.1364/JOSAA.30.000871},
+abstract = {We present an efficient and accurate algorithm for principal component analysis (PCA) of a large set of two-dimensional images and, for each image, the set of its uniform rotations in the plane and its reflection. The algorithm starts by expanding each image, originally given on a Cartesian grid, in the Fourier\&\#x2013;Bessel basis for the disk. Because the images are essentially band limited in the Fourier domain, we use a sampling criterion to truncate the Fourier\&\#x2013;Bessel expansion such that the maximum amount of information is preserved without the effect of aliasing. The constructed covariance matrix is invariant to rotation and reflection and has a special block diagonal structure. PCA is efficiently done for each block separately. This Fourier Bessel-based PCA detects more meaningful eigenimages and has improved denoising capability compared to traditional PCA for a finite number of noisy images.},
+}

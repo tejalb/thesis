@@ -1,0 +1,465 @@
+﻿@incollection{wiener_deriv,
+title = "Chapter 46 - Deconvolution ",
+booktitle = "Information Theory, Inference and Learning Algorithms ",
+publisher = "Cambridge University Press",
+edition = "",
+address = "Cambridge, UK",
+year = "2004",
+pages = "550 - 551",
+author = "D. J. C. MacKay"
+
+}
+
+
+@article{marcenko,
+    author = {Mar\v{c}enko, V. A. and Pastur, L. A.},
+    citeulike-article-id = {3310423},
+    citeulike-linkout-0 = {http://dx.doi.org/10.1070/sm1967v001n04abeh001994},
+    day = {30},
+    doi = {10.1070/sm1967v001n04abeh001994},
+    journal = {Mathematics of the USSR-Sbornik},
+    keywords = {eigenvalues, reactmethods},
+    month = apr,
+    number = {4},
+    pages = {457--483},
+    posted-at = {2008-09-21 18:06:54},
+    priority = {2},
+    title = {{Distribution of eigenvalues for some sets of random matrices}},
+    url = {http://dx.doi.org/10.1070/sm1967v001n04abeh001994},
+    volume = {1},
+    year = {1967}
+}
+
+@INPROCEEDINGS{joakim, 
+author={Joakim And{\'{e}}n and
+               Eugene Katsevich and
+               Amit Singer}, 
+booktitle={ IEEE 12th International Symposium on Biomedical Imaging (ISBI)}, 
+title={ovariance estimation using conjugate gradient for 3D classification
+               in {CRYO-EM}}, 
+year={2015}, 
+pages={200-204}, 
+keywords={X-ray crystallography;biological techniques;electron microscopy;mathematical programming;singular value decomposition;2D projection images;3D molecule expansion coefficient;3D molecule structure;AD 1980;X-ray crystallography;autocorrelation function;cryo-electron microscopy;orthogonal extension;orthogonal matrix retrieval;orthogonal replacement;phase retrieval problem;semidefinite programming;single particle reconstruction;singular value decomposition;spherical harmonics;Covariance matrices;Crystallography;Image reconstruction;Matrix decomposition;Microscopy;Noise measurement;Three-dimensional displays;3D reconstruction;Cryo-electron microscopy;ab-initio modelling;autocorrelation;convex relaxation;polar decomposition;semidefinite programming;single particle analysis;spherical harmonics}, 
+doi={10.1109/ISBI.2015.7164051}, 
+month={April},}
+
+@article{gene,
+author = {E. Katsevich and A. Katsevich and A. Singer},
+title = {Covariance Matrix Estimation for the Cryo-EM Heterogeneity Problem},
+journal = {SIAM Journal on Imaging Sciences},
+volume = {8},
+number = {1},
+pages = {126-185},
+year = {2015},
+doi = {10.1137/130935434},
+
+URL = { 
+        http://dx.doi.org/10.1137/130935434
+    
+},
+eprint = { 
+        http://dx.doi.org/10.1137/130935434
+    
+}
+
+}
+
+@incollection{Frankbook,
+title = "Chapter 3 - Two-Dimensional Averaging Techniques ",
+booktitle = "Three-Dimensional Electron Microscopy of Macromolecular Assemblies ",
+publisher = "Academic Press",
+edition = "",
+address = "Burlington",
+year = "1996",
+pages = "54 - 125",
+isbn = "978-0-12-265040-6",
+doi = "http://dx.doi.org/10.1016/B978-012265040-6/50003-5",
+url = "http://www.sciencedirect.com/science/article/pii/B9780122650406500035",
+author = "Joachim Frank"
+
+}
+@incollection{Penczek_image,
+title = "Chapter Two - Image Restoration in Cryo-Electron Microscopy ",
+editor = "Grant J. Jensen",
+booktitle = "Cryo-EM, Part B: 3-D Reconstruction",
+publisher = "Academic Press",
+year = "2010",
+volume = "482",
+pages = "35 - 72",
+series = "Methods in Enzymology ",
+issn = "0076-6879",
+doi = "http://dx.doi.org/10.1016/S0076-6879(10)82002-6",
+url = "http://www.sciencedirect.com/science/article/pii/S0076687910820026",
+author = "Pawel A. Penczek"
+}
+
+@article{knadler,
+author = {Shira Kritchman and Boaz Nadler},
+title = {{Determining the number of components in a factor model from limited noisy data}},
+journal = {Chemometrics and Intelligent Laboratory Systems},
+volume = {94},
+year = {2008},
+pages = {19--32},
+issue = {1},
+doi = {10.1016/j.chemolab.2008.06.002},
+masid = {6398752}
+}
+
+@article{donoho,
+  title={Optimal shrinkage of eigenvalues in the spiked covariance model},
+  author={Donoho, David and Gavish, Matan and Johnstone, I M},
+  journal   = {CoRR},
+  volume    = {abs/1311.0851},
+  year      = {2014},
+  url={arxiv.org/abs/1311.0851},
+  year={2014}
+}
+
+@article{ip3_paper,
+title = "Flexible Architecture of  {IP\textsubscript{3}R1} by Cryo-EM ",
+journal = "Structure ",
+volume = "19",
+number = "8",
+pages = "1192 - 1199",
+year = "2011",
+note = "",
+issn = "0969-2126",
+doi = "http://dx.doi.org/10.1016/j.str.2011.05.003",
+url = "http://www.sciencedirect.com/science/article/pii/S0969212611001808",
+author = "Steven J. Ludtke and Thao P. Tran and Que T. Ngo and Vera Yu. Moiseenkova-Bell and Wah Chiu and Irina I. Serysheva"
+}
+
+
+@article{trpv1_nature,
+	Title = {Structure of the TRPV1 ion channel determined by electron cryo-microscopy},
+	Author = {Liao, Maofu and Cao, Erhu and Julius, David and Cheng, Yifan},
+	DOI = {10.1038/nature12822},
+	Number = {7478},
+	Volume = {504},
+	Month = {December},
+	Year = {2013},
+	Journal = {Nature},
+	ISSN = {0028-0836},
+	Pages = {107—112},
+	URL = {http://europepmc.org/articles/PMC4078027},
+}
+
+@article {70s_frank,
+author = {Agirrezabala, Xabier and Liao, Hstau Y. and Schreiner, Eduard and Fu, Jie and Ortiz-Meoz, Rodrigo F. and Schulten, Klaus and Green, Rachel and Frank, Joachim}, 
+title = {Structural characterization of mRNA-tRNA translocation intermediates},
+volume = {109}, 
+number = {16}, 
+pages = {6094-6099}, 
+year = {2012}, 
+doi = {10.1073/pnas.1201288109}, 
+abstract ={Cryo-EM analysis of a wild-type Escherichia coli pretranslocational sample has revealed the presence of previously unseen intermediate substates of the bacterial ribosome during the first phase of translocation, characterized by intermediate intersubunit rotations, L1 stalk positions, and tRNA configurations. Furthermore, we describe the domain rearrangements in quantitative terms, which has allowed us to characterize the processivity and coordination of the conformational reorganization of the ribosome, along with the associated changes in tRNA ribosome-binding configuration. The results are consistent with the view of the ribosome as a molecular machine employing Brownian motion to reach a functionally productive state via a series of substates with incremental changes in conformation.}, 
+URL = {http://www.pnas.org/content/109/16/6094.abstract}, 
+eprint = {http://www.pnas.org/content/109/16/6094.full.pdf}, 
+journal = {Proceedings of the National Academy of Sciences} 
+}
+
+@Article{nogales,
+author={Nogales, Eva},
+title={The development of cryo-EM into a mainstream structural biology technique},
+journal={Nat Meth},
+year={2016},
+month={Jan},
+publisher={Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.},
+volume={13},
+number={1},
+pages={24-27},
+abstract={Single-particle cryo-electron microscopy (cryo-EM) has emerged over the last two decades as a technique capable of studying challenging systems that otherwise defy structural characterization. Recent technical advances have resulted in a 'quantum leap' in applicability, throughput and achievable resolution that has gained this technique worldwide attention. Here I discuss some of the major historical landmarks in the development of the cryo-EM field, ultimately leading to its present success.},
+note={Historical Commentary},
+issn={1548-7091},
+url={http://dx.doi.org/10.1038/nmeth.3694}
+}
+
+@Article{nature_method,
+title={Method of the Year 2015},
+journal={Nat Meth},
+year={2016},
+month={Jan},
+publisher={Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.},
+volume={13},
+number={1},
+pages={1-1},
+note={Editorial},
+issn={1548-7091},
+url={http://dx.doi.org/10.1038/nmeth.3730}
+}
+
+@Article{kuhlbrandt,
+author={K{\"u}hlbrandt, Werner},
+title={Cryo-EM enters a new era},
+journal={eLife},
+year={2014},
+month={Aug},
+day={13},
+publisher={eLife Sciences Publications, Ltd},
+volume={3},
+pages={e03678},
+abstract={Advances in detector hardware and image-processing software have led to a revolution in the use of electron cryo-microscopy to determine complex molecular structures at high resolution.},
+note={25122623[pmid]},
+note={03678[PII]},
+issn={2050-084X},
+doi={10.7554/eLife.03678},
+url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4131193/}
+}
+
+@article{sigworth_rev,
+author = {Sigworth, Fred J.}, 
+title = {Principles of cryo-EM single-particle image processing},
+year = {2015}, 
+doi = {10.1093/jmicro/dfv370}, 
+abstract ={Single-particle reconstruction is the process by which 3D density maps are obtained from a set of low-dose cryo-EM images of individual macromolecules. This review considers the fundamental principles of this process and the steps in the overall workflow for single-particle image processing. Also considered are the limits that image signal-to-noise ratio places on resolution and the distinguishing of heterogeneous particle populations.}, 
+URL = {http://jmicro.oxfordjournals.org/content/early/2015/12/23/jmicro.dfv370.abstract}, 
+eprint = {http://jmicro.oxfordjournals.org/content/early/2015/12/23/jmicro.dfv370.full.pdf+html}, 
+journal = {Microscopy} 
+}
+
+@article {80s_bai,
+author={Wong, Wilson
+and Bai, Xiao-chen
+and Brown, Alan
+and Fernandez, Israel S.
+and Hanssen, Eric
+and Condron, Melanie
+and Tan, Yan Hong
+and Baum, Jake
+and Scheres, Sjors HW},
+editor={K{\"u}hlbrandt, Werner},
+title={Cryo-EM structure of the Plasmodium falciparum 80S ribosome bound to the anti-protozoan drug emetine},
+journal={eLife},
+year={2014},
+month={Jun},
+day={09},
+publisher={eLife Sciences Publications, Ltd},
+volume={3},
+pages={e03080},
+abstract={Malaria inflicts an enormous burden on global human health. The emergence of parasite resistance to front-line drugs has prompted a renewed focus on the repositioning of clinically approved drugs as potential anti-malarial therapies. Antibiotics that inhibit protein translation are promising candidates for repositioning. We have solved the cryo-EM structure of the cytoplasmic ribosome from the human malaria parasite, Plasmodium falciparum, in complex with emetine at 3.2 {\AA} resolution. Emetine is an anti-protozoan drug used in the treatment of ameobiasis that also displays potent anti-malarial activity. Emetine interacts with the E-site of the ribosomal small subunit and shares a similar binding site with the antibiotic pactamycin, thereby delivering its therapeutic effect by blocking mRNA/tRNA translocation. As the first cryo-EM structure that visualizes an antibiotic bound to any ribosome at atomic resolution, this establishes cryo-EM as a powerful tool for screening and guiding the design of drugs that target parasite translation machinery. DOI: http://dx.doi.org/10.7554/eLife.03080.001 },
+note={24913268[pmid]},
+note={03080[PII]},
+issn={2050-084X},
+doi={10.7554/eLife.03080},
+url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4086275/}	
+}
+
+@article{eman2,
+title = "EMAN2: An extensible image processing suite for electron microscopy ",
+journal = "Journal of Structural Biology ",
+volume = "157",
+number = "1",
+pages = "38 - 46",
+year = "2007",
+note = "Software tools for macromolecular microscopy ",
+issn = "1047-8477",
+doi = "http://dx.doi.org/10.1016/j.jsb.2006.05.009",
+url = "http://www.sciencedirect.com/science/article/pii/S1047847706001894",
+author = "Guang Tang and Liwei Peng and Philip R. Baldwin and Deepinder S. Mann and Wen Jiang and Ian Rees and Steven J. Ludtke",
+keywords = "EMAN",
+keywords = "Single particle analysis",
+keywords = "cryoEM",
+keywords = "TEM",
+keywords = "Software",
+keywords = "Image processing",
+keywords = "Electron microscopy "
+}
+@Article{imagic2,
+   Author="van Heel, M.  and Gowen, B.  and Matadeen, R.  and Orlova, E. V.  and Finn, R.  and Pape, T.  and Cohen, D.  and Stark, H.  and Schmidt, R.  and Schatz, M.  and Patwardhan, A. ",
+   Title="{{S}ingle-particle electron cryo-microscopy: towards atomic resolution}",
+   Journal="Q. Rev. Biophys.",
+   Year="2000",
+   Volume="33",
+   Number="4",
+   Pages="307--369",
+   Month="Nov"
+}
+
+@Article{eman,
+   Author="Ludtke, S. J.  and Baldwin, P. R.  and Chiu, W. ",
+   Title="{{E}{M}{A}{N}: semiautomated software for high-resolution single-particle reconstructions}",
+   Journal="J. Struct. Biol.",
+   Year="1999",
+   Volume="128",
+   Number="1",
+   Pages="82--97",
+   Month="Dec"
+   }
+   
+ @Article{imagic,
+   Author="van Heel, M.  and Harauz, G.  and Orlova, E. V.  and Schmidt, R.  and Schatz, M. ",
+   Title="{{A} new generation of the {I}{M}{A}{G}{I}{C} image processing system}",
+   Journal="J. Struct. Biol.",
+   Year="1996",
+   Volume="116",
+   Number="1",
+   Pages="17--24"
+}  
+% 25544475 
+@Article{cryoem_rev,
+   Author="Bai, X. C.  and McMullan, G.  and Scheres, S. H. ",
+   Title="{{H}ow cryo-{E}{M} is revolutionizing structural biology}",
+   Journal="Trends Biochem. Sci.",
+   Year="2015",
+   Volume="40",
+   Number="1",
+   Pages="49--57",
+   Month="Jan"
+}
+
+@Article{rev2,
+   Author="Milne, J. L.  and Borgnia, M. J.  and Bartesaghi, A.  and Tran, E. E.  and Earl, L. A.  and Schauder, D. M.  and Lengyel, J.  and Pierson, J.  and Patwardhan, A.  and Subramaniam, S. ",
+   Title="{{C}ryo-electron microscopy--a primer for the non-microscopist}",
+   Journal="FEBS J.",
+   Year="2013",
+   Volume="280",
+   Number="1",
+   Pages="28--45",
+   Month="Jan"
+}
+
+@article{kam1980,
+title = "The reconstruction of structure from electron micrographs of randomly oriented particles ",
+journal = "Journal of Theoretical Biology ",
+volume = "82",
+number = "1",
+pages = "15 - 39",
+year = "1980",
+note = "",
+issn = "0022-5193",
+doi = "http://dx.doi.org/10.1016/0022-5193(80)90088-0",
+url = "http://idc311-www.sciencedirect.com/science/article/pii/0022519380900880",
+author = "Z. Kam"
+}
+@article{josaa, 
+author = {Zhizhen Zhao and Amit Singer}, 
+journal = {J. Opt. Soc. Am. A}, 
+keywords = {Image processing; Microscopy; Image recognition, algorithms and filters},
+number = {5}, 
+pages = {871--877}, 
+publisher = {OSA},
+title = {Fourier\&\#x2013;Bessel rotational invariant eigenimages}, 
+volume = {30}, 
+month = {May},
+year = {2013},
+url = {http://josaa.osa.org/abstract.cfm?URI=josaa-30-5-871},
+doi = {10.1364/JOSAA.30.000871},
+abstract = {We present an efficient and accurate algorithm for principal component analysis (PCA) of a large set of two-dimensional images and, for each image, the set of its uniform rotations in the plane and its reflection. The algorithm starts by expanding each image, originally given on a Cartesian grid, in the Fourier\&\#x2013;Bessel basis for the disk. Because the images are essentially band limited in the Fourier domain, we use a sampling criterion to truncate the Fourier\&\#x2013;Bessel expansion such that the maximum amount of information is preserved without the effect of aliasing. The constructed covariance matrix is invariant to rotation and reflection and has a special block diagonal structure. PCA is efficiently done for each block separately. This Fourier\&\#x2013;Bessel-based PCA detects more meaningful eigenimages and has improved denoising capability compared to traditional PCA for a finite number of noisy images.},
+
+}
+
+@article{sigworth,
+    author = {Sigworth, F. J.},
+    citeulike-article-id = {6756383},
+    journal = {Journal of Structural Biology},
+    keywords = {cryoet},
+    number = {1-2},
+    posted-at = {2010-03-03 09:43:46},
+    priority = {3},
+    title = {Classical detection theory and the {cryo-EM} particle selection problem},
+    volume = {145},
+    year = {2004}
+}
+
+@Article{spider,
+   Author="Frank, J.  and Radermacher, M.  and Penczek, P.  and Zhu, J.  and Li, Y.  and Ladjadj, M.  and Leith, A. ",
+   Title="{{S}{P}{I}{D}{E}{R} and {W}{E}{B}: processing and visualization of images in 3{D} electron microscopy and related fields}",
+   Journal="J. Struct. Biol.",
+   Year="1996",
+   Volume="116",
+   Number="1",
+   Pages="190--199"
+}
+
+Issue Date: MARCH.2016
+Volume: 2 Issue: 1
+On page(s): 1-12
+ISSN: <not found>
+Digital Object Identifier: 10.1109/TCI.2016.2514700
+<not found>
+
+@article{ffbspca,
+  author    = {Zhizhen Zhao and
+               Yoel Shkolnisky and
+               Amit Singer},
+  title     = {IEEE Transactions on Computational Imaging},
+  journal   = {CoRR},
+  volume    = {abs/1412.0781},
+  year      = {2014},
+  url       = {http://arxiv.org/abs/1412.0781},
+  timestamp = {Thu, 01 Jan 2015 19:51:08 +0100},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/ZhaoSS14},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@INPROCEEDINGS{or, 
+author={Bhamre, T. and Teng Zhang and Singer, A.}, 
+booktitle={ IEEE 12th International Symposium on Biomedical Imaging (ISBI)}, 
+title={Orthogonal matrix retrieval in cryo-electron microscopy}, 
+year={2015}, 
+pages={1048-1052}, 
+keywords={X-ray crystallography;biological techniques;electron microscopy;mathematical programming;singular value decomposition;2D projection images;3D molecule expansion coefficient;3D molecule structure;AD 1980;X-ray crystallography;autocorrelation function;cryo-electron microscopy;orthogonal extension;orthogonal matrix retrieval;orthogonal replacement;phase retrieval problem;semidefinite programming;single particle reconstruction;singular value decomposition;spherical harmonics;Covariance matrices;Crystallography;Image reconstruction;Matrix decomposition;Microscopy;Noise measurement;Three-dimensional displays;3D reconstruction;Cryo-electron microscopy;ab-initio modelling;autocorrelation;convex relaxation;polar decomposition;semidefinite programming;single particle analysis;spherical harmonics}, 
+doi={10.1109/ISBI.2015.7164051}, 
+month={April},}
+@article{Scheres_bay,
+title = "A Bayesian View on Cryo-EM Structure Determination ",
+
+journal = "Journal of Molecular Biology ",
+
+volume = "415",
+
+number = "2",
+
+pages = "406 - 418",
+
+year = "2012",
+
+note = "",
+
+issn = "0022-2836",
+
+doi = "http://dx.doi.org/10.1016/j.jmb.2011.11.010",
+
+url = "http://www.sciencedirect.com/science/article/pii/S0022283611012290",
+
+author = "Sjors H.W. Scheres",
+
+keywords = "cryo-electron microscopy",
+
+keywords = "three-dimensional reconstruction",
+
+keywords = "maximum a posteriori estimation "
+
+}
+
+@Article{aspire,
+   Author="Zhao, Z.  and Singer, A. ",
+   Title="{{R}otationally invariant image representation for viewing direction classification in cryo-{E}{M}}",
+   Journal="J. Struct. Biol.",
+   Year="2014",
+   Volume="186",
+   Number="1",
+   Pages="153--166",
+   Month="Apr"
+}
+
+
+@article{Dirac1953888,
+  title   = "The lorentz transformation and absolute time",
+  journal = "Physica ",
+  volume  = "19",
+  number  = "1-–12",
+  pages   = "888--896",
+  year    = "1953",
+  doi     = "10.1016/S0031-8914(53)80099-6",
+  author  = "P.A.M. Dirac"
+}
+
+@article{Feynman1963118,
+  title   = "The theory of a general quantum system interacting with a linear dissipative system",
+  journal = "Annals of Physics ",
+  volume  = "24",
+  pages   = "118--173",
+  year    = "1963",
+  doi     = "10.1016/0003-4916(63)90068-X",
+  author  = "R.P Feynman and F.L {Vernon Jr.}"
+}

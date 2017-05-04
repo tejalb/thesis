@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ur_draft_amit.aux
+The style file: IEEEbib.bst
+Database file #1: ur_amit.bib
+Name 1 in "X. Bai, and G. McMullan, and S.H.W Scheres" has a comma at the end for entry Revol
+while executing---line 1012 of file IEEEbib.bst
+Name 2 in "X. Bai, and G. McMullan, and S.H.W Scheres" has a comma at the end for entry Revol
+while executing---line 1012 of file IEEEbib.bst
+Name 1 in "A. S. Bandeira, and A. Singer, and D. A. Spielman" has a comma at the end for entry Cheeger
+while executing---line 1012 of file IEEEbib.bst
+Name 2 in "A. S. Bandeira, and A. Singer, and D. A. Spielman" has a comma at the end for entry Cheeger
+while executing---line 1012 of file IEEEbib.bst
+You've used 22 entries,
+            1838 wiz_defined-function locations,
+            614 strings with 7342 characters,
+and the built_in function-call counts, 5092 in all, are:
+= -- 468
+> -- 192
+< -- 2
++ -- 74
+- -- 52
+* -- 446
+:= -- 819
+add.period$ -- 24
+call.type$ -- 22
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 22
+duplicate$ -- 191
+empty$ -- 511
+format.name$ -- 52
+if$ -- 1135
+int.to.chr$ -- 0
+int.to.str$ -- 22
+missing$ -- 23
+newline$ -- 113
+num.names$ -- 24
+pop$ -- 41
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 55
+stack$ -- 0
+substring$ -- 432
+swap$ -- 33
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 47
+width$ -- 24
+write$ -- 245
+(There were 4 error messages)

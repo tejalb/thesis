@@ -1,0 +1,24 @@
+\chapter{Conclusion}
+In this dissertation, we first presented two new approaches based on Kam's theory for homology and ab-initio modeling of macromolecules for SPR from cryo-EM. We required an estimator of the covariance matrix of 2D projection images prior to the effect of the CTF and noise. This would lead to better 2D image restoration and class averaging procedures. We estimated the covariance matrix in the presence of the CTF and realistic noise levels, and applied our methods to experimental datasets.
+
+We presented a new approach for image restoration of cryo-EM images, CWF, whose
+main algorithmic components are covariance estimation and deconvolution using Wiener filtering.
+CWF performs both CTF correction, by correcting the Fourier phases and amplitudes of the images, 
+as well as denoising, by eliminating the noise thereby improving the SNR of the resulting images.
+For future work, it remains to be seen whether the resulting denoised images from CWF can be directly used to estimate viewing angles,
+without performing classification and averaging. With the improvement in detector technology, it would be exciting to reach SNR's for raw images that allow direct 3D reconstruction from denoised images. 
+
+We introduced a new similarity measure to compare CTF-affected cryo-EM images belonging to different defocus groups. We provided a new probabilistic interpretation for this anisotropic affinity. The affinity can also be used as a similarity measure for any manifold learning procedure \cite{intgeom, nlica} such as diffusion maps \cite{vdm, difmap}, with or without missing data, and extended to other imaging modalities where images are affected by different point spread functions or blurring kernels. It would be interesting to explore the extension of this metric from 2D images to 3D volumes, in problems where there exist distinct classes of 3D volumes. The heterogeneity problem in cryo-EM is one such instance.
+
+Finally, we derived a general magnitude correction scheme for the class of
+`phase-retrieval' problems, in particular, for Orthogonal Extension in cryo-EM.
+We derived an asymptotically unbiased estimator and demonstrate 3D homology modeling using OE with synthetic and experimental datasets. We foresee this method as a good way to provide models to initialize refinement, directly from experimental images without performing class averaging and orientation estimation. This method can also be extended to SPR using X-ray free electron lasers (XFEL). 
+
+Covariance matrix estimation is encountered in several statistical estimation problems across diverse disciplines, such as portfolio selection and risk management in finance, Kalman filters that occur in computer vision and vehicle navigation, inferring covariance matrices from sparse genomic data in bioinformatics, etc. The covariance estimation algorithm presented in this thesis can be extended to any problem with a similar statistical model for the data. 
+
+The Mahalanobis affinity we derived can also be applied to any manifold learning procedure such as diffusion maps, and extended to other imaging modalities where images are affected by different point spread functions or blurring kernels. The affinity measure can thus lead to an improvement in clustering and classification of data.
+
+
+
+
+
