@@ -1,5 +1,5 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Challenges and Contributions}{13}{0}{2}
 \beamer@sectionintoc {3}{Part 1: Covariance Estimation from Noisy Measurements}{23}{0}{3}
-\beamer@sectionintoc {4}{Part 2: 3D Homology Modeling}{53}{0}{4}
-\beamer@sectionintoc {5}{Appendix}{87}{0}{5}
+\beamer@sectionintoc {4}{Part 2: 3D Homology Modeling}{54}{0}{4}
+\beamer@sectionintoc {5}{Appendix}{89}{0}{5}

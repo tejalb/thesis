@@ -496,10 +496,10 @@ underlying clean 2D projection images
 \frametitle{The Model: Real space}
 Linear, weak phase approximation\\
 
-\begin{equation}
+\begin{equation*}
  y_i = a_i \ast x_i + \epsilon_i, \quad i=1,2,\ldots,n
 \label{eqn:model}
-\end{equation}
+\end{equation*}
 
 $n$: number of images\\
 $\ast$: convolution operation\\
@@ -512,10 +512,10 @@ $\epsilon_i$: additive Gaussian noise that corrupts the image
 \begin{frame}<beamer>
 \frametitle{The Model: Fourier space}
 
-\begin{equation}
+\begin{equation*}
  Y_i = A_i X_i + \xi_i, \quad i=1,2,\ldots,n
 \label{eqn:model_f}
-\end{equation}
+\end{equation*}
 
 \begin{itemize}
 \item $A_i$: diagonal operator (CTF)
@@ -529,19 +529,19 @@ and covariance $\Sigma=\mathbb{E}[(\textbf{X}-\mu)(\textbf{X}-\mu)^T]$
 
 \begin{frame}<beamer>
 \frametitle{The Model}
-\begin{equation}
+\begin{equation*}
 \mathbb{E}[\textbf{Y}_i]=A_i \mathbb{E}[\textbf{X}_i], \quad i=1,2,\ldots,n.
 \label{eqn:exp_y}
-\end{equation}
+\end{equation*}
 
-\begin{equation}
+\begin{equation*}
 \begin{aligned}
 \mathbb{E}[(\textbf{Y}_i-\mathbb{E}[\textbf{Y}_i])(\textbf{Y}_i-\mathbb{E}[\textbf{Y}_i])^T] 
 &= \mathbb{E} [A_i(\textbf{X}_i-\mu)(\textbf{X}_i-\mu)^T A_i^T] + \sigma^2I \\
 &=  A_i \Sigma A_i^T + \sigma^2I .
 \end{aligned}
 \label{eqn:expectation_eq}
-\end{equation}
+\end{equation*}
 
 Relates the second order statistics of the noisy images with the 
 population covariance $\Sigma$ of the clean images
@@ -553,22 +553,22 @@ population covariance $\Sigma$ of the clean images
 \begin{frame}<beamer>
 \frametitle{Mean Estimation}
 
-\begin{equation}
+\begin{equation*}
  \hat\mu = \argmin{\mu} \sum_{i=1}^n||(Y_i-A_i\mu)||_2^2 + \lambda||\mu||_2^2
-\end{equation}
+\end{equation*}
 
 % % 
-\begin{equation}
+\begin{equation*}
  \hat\mu = (\sum_{i=1}^n A_i^T A_i + \lambda I)^{-1}(\sum_{i=1}^n 
 A_i^T Y_i).
 \label{eq:ls_mean_sol}
-\end{equation}
+\end{equation*}
 \end{frame}
 
 
 \begin{frame}<beamer>
 \frametitle{Covariance Estimation}
-\begin{equation}
+\begin{equation*}
 \begin{aligned}
 \hat\Sigma 
 &= \argmin{\Sigma} \sum_{i=1}^n || (Y_i - \mathbb{E}[\textbf{Y}_i]) (Y_i - \mathbb{E}[\textbf{Y}_i])^T
@@ -576,7 +576,7 @@ A_i^T Y_i).
 &= \argmin{\Sigma} \sum_{i=1}^n || A_i\Sigma A_i^T + \sigma^2 I - C_i  ||_F^2 
 \end{aligned}
 \label{eqn:ls1}
-\end{equation}
+\end{equation*}
 where $C_i=(Y_i - A_i \mu) (Y_i - A_i \mu)^T$ and $||.||_F$ is the Frobenius matrix norm. 
 \end{frame}
 
@@ -585,22 +585,22 @@ where $C_i=(Y_i - A_i \mu) (Y_i - A_i \mu)^T$ and $||.||_F$ is the Frobenius mat
 \frametitle{Solving using Conjugate Gradient}
 System of linear equations for the elements of the matrix $\hat \Sigma$
 
-\begin{equation}
+\begin{equation*}
 \begin{aligned}
 \sum_{i=1}^n  A_i^T  A_i \hat \Sigma A_i^T A_i
 &= \sum_{i=1}^n A_i^T C_i A_i - \sum_{i=1}^n \sigma^2 A_i^T A_i 
 \end{aligned}
 \label{eqn:normal_white}
-\end{equation}
+\end{equation*}
 \frametitle{Solving using Conjugate Gradient}
-\begin{equation}
+\begin{equation*}
 \begin{aligned}
 L(\hat\Sigma) 
 &=  B 
 \label{eqn:cg}
 \end{aligned}
-\end{equation}
-where $L:\mathbb{R}^{p\times p} \to \mathbb{R}^{p\times p}$ is the linear operator acting on $\hat{\Sigma}$ defined by the left hand side of eqn. \ref{eqn:normal_white}, and $B$ is the right hand side.
+\end{equation*}
+where $L:\mathbb{R}^{p\times p} \to \mathbb{R}^{p\times p}$ is the linear operator acting on $\hat{\Sigma}$.
 
 \begin{itemize}
  \item Direct inversion of this linear system is slow for large image sizes
@@ -648,15 +648,15 @@ $0$
 
 \begin{itemize}
 \item White noise: estimate $X_i$ as
-\begin{equation}
+\begin{equation*}
 \hat X_i = (I-H_iA_{i})\hat\mu + H_iY_i 
-\end{equation}
+\end{equation*}
 where $H_i = \hat \Sigma A_{i}^T ( A_{i} \hat \Sigma A_{i}^T + \sigma^2 
 I)^{-1} $ is the linear Wiener filter  
 \item Colored noise: estimate $X_i$ as
-\begin{equation}
+\begin{equation*}
 \hat X_i = (I-H_iWA_{i})\hat\mu + H_iY_i 
-\end{equation}
+\end{equation*}
 with $H_i = \hat \Sigma A_{i}^T W^T (W A_{i} \hat \Sigma A_{i}^T W^T 
 + \sigma^2 I)^{-1}$
 \end{itemize}
@@ -737,18 +737,18 @@ $n \to \infty$}
 \put(-40,35){\tiny Defocus=$1\mu m$}
 \put(-40,10){\tiny Defocus=$4\mu m$}
 \end{overpic}%
-}
-\vspace{-0.5mm}
+}\quad
+%\vspace{-0.5mm}
 \subfloat[SNR=$1/20$]{\begin{overpic}[width=0.35\linewidth]{figures/compare_ims_snr1by20_6454.eps}%
 %\put(5,40){Clean}
 \end{overpic}%
-\label{}}
-\vspace{-0.5mm}
+\label{}}\\
+%\vspace{-0.5mm}
 \subfloat[SNR=$1/40$]{\begin{overpic}[width=0.35\linewidth]{figures/compare_ims_snr1by40_6454.eps}%
 %\put(5,40){Clean}
 \end{overpic}%
-\label{}}
-\vspace{-0.5mm}
+\label{}}\quad
+%\vspace{-0.5mm}
 \subfloat[SNR=$1/60$]{\begin{overpic}[width=0.35\linewidth]{figures/compare_ims_snr1by60_6454.eps}%
 %\put(5,40){Clean}
 \end{overpic}%
@@ -769,17 +769,17 @@ $n \to \infty$}
 \item Specimen particles at various depths in the ice layer: acquired
 projection images can have different contrasts
 \item 
-\begin{equation}
+\begin{equation*}
  Y_i = \alpha_i A_i X_i + \xi_i, \quad i=1,2,\ldots,n
 \label{eqn:contrast}
-\end{equation}
+\end{equation*}
 \item Absorb $\alpha$ into $\textbf{X}$ and estimate $\alpha_i X_i$ 
 \item  Outlier images typically have low contrast
 after denoising: linear classifier
 after CWF 
 \end{itemize}
 \end{frame}
-
+\setcounter{subfigure}{0}
 \begin{frame}<beamer>
 \frametitle{Outlier Detection: 80S ribosome (EMDB-6454)}
 SNR=1/20 
@@ -895,15 +895,25 @@ Mahalanobis affinity or likelihood for the underlying clean images $x_i$ and $x_
 &\Pr(||X_{ij}||_{p} < \epsilon|Y_i=y_i,Y_j=y_j)   \nonumber
 %										 
 \end{align}
-\begin{equation}
+\begin{equation*}
 = \frac{\epsilon^d \text{Vol}(B_p(0,1)) }{(2 \pi)^{\frac{d}{2}} |L_i + L_j|^{\frac{1}{2}}} \exp\{-\frac{1}{2}\alpha_{ij}^T(L_i+L_j)^{-1}\alpha_{ij}\} +  \mathcal{O}(\epsilon^{d+1})   \nonumber
 \label{eqn:metr}
-\end{equation}
+\end{equation*}
+\end{frame}
+
+\begin{frame}<beamer>
+\setbeamercovered{transparent}
+\frametitle{New Class Averaging Pipeline}
+\begin{figure}[h]
+\centering
+{\includegraphics[scale=0.4]{figures/pipeline.pdf}}\\
+\label{fig:rawims}
+\end{figure}
 \end{frame}
 
 
 \begin{frame}<beamer>
-\frametitle{Application: Mahalanobis Affinity}
+\frametitle{Class Averages}
 \begin{figure}[!htbp]
 \begin{center}
 \begin{tabular}{c}
@@ -918,7 +928,7 @@ Mahalanobis affinity or likelihood for the underlying clean images $x_i$ and $x_
 \end{frame}
 
 \begin{frame}<beamer>
-\frametitle{Application: Mahalanobis Affinity}
+\frametitle{Improved Nearest Neighbor Detection}
 \begin{figure}
 \begin{center}
 \begin{tabular}{cc}
@@ -927,7 +937,7 @@ Mahalanobis affinity or likelihood for the underlying clean images $x_i$ and $x_
 \end{tabular}
 \end{center}
 \end{figure}
-Improved class averaging using Mahalanobis affinity to detect nearest neighbors \blfootnote{TB, Z. Zhao and A. Singer (2017)}
+Improved nearest neighbor detection using Mahalanobis affinity\blfootnote{TB, Z. Zhao and A. Singer (2017)}
 \end{frame}
 
 
@@ -992,14 +1002,14 @@ Improved class averaging using Mahalanobis affinity to detect nearest neighbors 
 
 \begin{frame}<beamer>
 \frametitle{Kam's Autocorrelation Analysis}
-\begin{equation}
+\begin{equation*}
 \label{eq:Cl}
 \bC_{{\bl}}= \bA_{\bl} \bA_{\bl}^*  \quad l=0,1,\ldots
-\end{equation}
+\end{equation*}
 
 \begin{itemize}
 \item $\bC_{\bl}$: autocorrelation matrix over $SO(3)$ (\alert{``magnitude''})
-\item $bA_l$: Expansion coefficients of 3D Fourier volume
+\item $\bA_{\bl}$: Expansion coefficients of 3D Fourier volume
 \item $\bC_{\bl}$ can be computed from the covariance matrix $\Sigma$ of the 2D projection images \blfootnote{Z. Kam (1980, 1985)}
 \item Requirement: Uniformly distributed viewing angles over the sphere
 \end{itemize}
@@ -1008,10 +1018,10 @@ Improved class averaging using Mahalanobis affinity to detect nearest neighbors 
 
 \begin{frame}<beamer>
 \frametitle{Outline of Our Approach}
-\begin{equation}
+\begin{equation*}
 \label{eq:Cl}
 \bC_{{\bl}}= \bA_{\bl} \bA_{\bl}^*  \quad l=0,1,\ldots
-\end{equation}
+\end{equation*}
 
 \begin{itemize}
 
@@ -1029,13 +1039,13 @@ density of the unknown structure.
 \item $\mathcal{F}(\Phi_A) : \mathbb{R}^3 \to \mathbb{C}$: 3D Fourier transform
 \end{itemize}
 
-\begin{equation}
+\begin{equation*}
 \label{eq:phia_expansion_full}
 \mathcal{F}(\Phi_A)(k,\theta,\varphi) = \sum_{l=0}^{\infty} \sum_{m=-l}^{l} 
 A_{lm}(k)
 Y_l^m
 (\theta, \varphi) \nonumber
-\end{equation}
+\end{equation*}
 \begin{itemize}
 \item $k$: radial frequency
 \item $Y_l^m$: real spherical harmonics
@@ -1044,19 +1054,19 @@ Y_l^m
 
 \begin{frame}<beamer>
 \frametitle{Kam's Autocorrelation Analysis}
-\begin{equation}
+\begin{equation*}
 \label{eq:phia_expansion_full}
 \mathcal{F}(\Phi_A)(k,\theta,\varphi) = \sum_{l=0}^{\infty} \sum_{m=-l}^{l} 
 A_{lm}(k)
 Y_l^m
 (\theta, \varphi) \nonumber
-\end{equation}
+\end{equation*}
 
-\begin{equation}
+\begin{equation*}
 \label{eq:Cl}
 C_{{l}}(k_1,k_2) = \sum_{m=-l}^l A_{lm}(k_1)\overline{A_{lm}(k_2)}, \quad 
 l=0,1,\ldots \nonumber
-\end{equation}
+\end{equation*}
 
 \begin{itemize}
 \item $\bC_{\bl}$: autocorrelation matrix over $SO(3)$
@@ -1070,34 +1080,34 @@ l=0,1,\ldots \nonumber
 \begin{itemize}
 \item Finite pixel grid: Nyquist criterion
 \end{itemize}
-\begin{equation}\label{eq:phia_expansion}
+\begin{equation*}\label{eq:phia_expansion}
 \mathcal{F}(\Phi_A)(k,\theta,\varphi) = \sum_{l=0}^{L} \sum_{m=-l}^{l} A_{lm}(k)
 Y_l^m
 (\theta, \varphi), \quad l=0, 1,\ldots, L \nonumber
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
 \label{Alm_practice}
 A_{lm}(k)= \sum_{s=1}^{S_l} a _{lms}j_{ls}(k).
-\end{equation}
+\end{equation*}
 \end{frame}
 
 
 \begin{frame}<beamer>
 \frametitle{Resolution Limit}
 Normalized spherical Bessel functions
-\begin{equation}
+\begin{equation*}
 \label{j_ls}
 j_{ls}(k)= \frac{1}{c\sqrt{\pi}|j_{l+1}(R_{l,s})|} j_l(R_{l,s}\frac{k}{c}), \quad 0<k<c, 
 \quad s=1,2,\ldots,S_l \nonumber
-\end{equation}
+\end{equation*}
 \begin{itemize}
 \item $c$: bandlimit of the images
 \item $R_{l,s}$: $s$'th positive root of the equation $j_l(x)=0$
 \item $S_l$: largest integer $s$ that satisfies the Nyquist criterion \blfootnote{X. Cheng (2013)}
-\begin{equation}
+\begin{equation*}
 \label{eq:nyq_sampling}
 R_{l,(s+1)}\leq 2\pi cR \nonumber
-\end{equation}
+\end{equation*}
 \item $L$: largest integer $l$ for which $S_l$ is at least $1$.
 \end{itemize}
 \end{frame}
@@ -1105,10 +1115,10 @@ R_{l,(s+1)}\leq 2\pi cR \nonumber
 
 \begin{frame}<beamer>
 \frametitle{Orthogonal Matrix Retrieval Problem \blfootnote{TB, T. Zhang, A. Singer (2015)}}
-\begin{equation}
+\begin{equation*}
 \label{eq:Cl_matrix}
 \bC_{\boldsymbol{l}}=\bA_{\boldsymbol{l}} \bA_{\boldsymbol{l}}^* \nonumber 
-\end{equation}
+\end{equation*}
 \begin{itemize}
 \item $\bA_{\boldsymbol{l}}$ is a matrix of size
 $S_l \times (2l+1)$
@@ -1124,16 +1134,16 @@ decomposition of $\bC_{\bl}$)
 \item Determine the coefficient matrices $\bA_{\boldsymbol{l}}$
 \item Known, homologous structure $\Phi_B$
 \end{itemize}
-\begin{equation}
+\begin{equation*}
 \mathcal{F}(\Phi_B)(k,\theta,\varphi) = \sum_{l=0}^{L_B} \sum_{m=-l}^{l}
 B_{lm}(k) Y_l^m (\theta, \varphi)
-\end{equation} 
+\end{equation*} 
 \begin{itemize}
 \item $\bF_{\boldsymbol{l}}$: any matrix of size $S_l\times 2l+1$ satisfying $\bC_{\boldsymbol{l}}= \bF_{\boldsymbol{l}} \bF_{\boldsymbol{l}}^*$
 \end{itemize}
-\begin{equation}
+\begin{equation*}
 \bA_{\boldsymbol{l}} = \bF_{\boldsymbol{l}} \bO_{\boldsymbol{l}}
-\end{equation}
+\end{equation*}
 \end{frame}
 
 
@@ -1143,16 +1153,16 @@ B_{lm}(k) Y_l^m (\theta, \varphi)
 \item Determine the coefficient matrices $\bA_{\boldsymbol{l}}$
 \item Known, homologous structure $\Phi_B$
 \end{itemize}
-\begin{equation}
+\begin{equation*}
 \mathcal{F}(\Phi_B)(k,\theta,\varphi) = \sum_{l=0}^{L_B} \sum_{m=-l}^{l}
 B_{lm}(k) Y_l^m (\theta, \varphi)
-\end{equation} 
+\end{equation*} 
 \begin{itemize}
 \item $\bF_{\boldsymbol{l}}$: any matrix of size $S_l\times 2l+1$ satisfying $\bC_{\boldsymbol{l}}= \bF_{\boldsymbol{l}} \bF_{\boldsymbol{l}}^*$
 \end{itemize}
-\begin{equation}
+\begin{equation*}
 \bA_{\boldsymbol{l}} = \bF_{\boldsymbol{l}} \bO_{\boldsymbol{l}}
-\end{equation}
+\end{equation*}
 \end{frame}
 
 \begin{frame}<beamer>
@@ -1160,18 +1170,18 @@ B_{lm}(k) Y_l^m (\theta, \varphi)
 \begin{itemize}
 \item $\bA_{\boldsymbol{l}} \approx \bB_{\boldsymbol{l}}$ (homologous assumption)
 \end{itemize}
-\begin{equation}
+\begin{equation*}
 \bO_{\boldsymbol{l}}=\argmint_{\bO \in \text{O}(2l+1)} \|\bF_{\boldsymbol{l}} \bO -\bB_{\boldsymbol{l}}\|_F^2 \nonumber
-\end{equation}
+\end{equation*}
 \begin{itemize}
 \item Closed form solution via singular value decomposition (SVD) \blfootnote{J. Keller (1975)}
 \end{itemize}
-\begin{equation}
+\begin{equation*}
 \bB_{\boldsymbol{l}}^* \bF_{\boldsymbol{l}} = \bU_{\boldsymbol{l}} \boldsymbol{\Sigma}_{\boldsymbol{l}} \bV_{\boldsymbol{l}}^T \nonumber
-\end{equation}
-\begin{equation}
+\end{equation*}
+\begin{equation*}
 \bO_{\boldsymbol{l}}= \bV_{\boldsymbol{l}} \bU_{\boldsymbol{l}}^T \nonumber
-\end{equation}
+\end{equation*}
 \end{frame}
 
 \begin{frame}<beamer>
@@ -1179,9 +1189,9 @@ B_{lm}(k) Y_l^m (\theta, \varphi)
 \begin{itemize}
 \item Least squares estimator
 \end{itemize}
-\begin{equation}
+\begin{equation*}
  \hat{\bA}_{\boldsymbol{l},\text{LS}} = \bF_{\boldsymbol{l}} \bV_{\boldsymbol{l}} \bU_{\boldsymbol{l}}^T
-\end{equation} 
+\end{equation*} 
 \begin{itemize}
 \item Twicing in practice: $2\hat{\bA}_{\boldsymbol{l},\text{LS}}-\bB_{\bl}$
 \end{itemize}
@@ -1195,9 +1205,9 @@ B_{lm}(k) Y_l^m (\theta, \varphi)
 \item Difference between two structures $\Phi_A$ and $\Phi_B$ might be known e.g. antibody fragment binding to a protein
 \item Known structure $\Delta \Phi = \Phi_B-\Phi_A$, cryo-EM images of $\Phi_A$, $\Phi_A$
 \end{itemize}
-\begin{equation}\label{lin}
+\begin{equation*}\label{lin}
 A_l^{(B}-A_l^{(A)}=F_l^{(B)}O_l^{(B)}-F_l^{(B)}O_l^{(A)} \nonumber
-\end{equation}
+\end{equation*}
 \begin{itemize}
 \item $F_l^{(B)}$ and $F_l^{(A)}$ computed from the autocorrelation matrix (using 2D covariance matrix from cryo-EM images)
 \end{itemize}
@@ -1212,9 +1222,9 @@ A_l^{(B}-A_l^{(A)}=F_l^{(B)}O_l^{(B)}-F_l^{(B)}O_l^{(A)} \nonumber
 \item Known structure $\Delta \Phi = \Phi_B-\Phi_A$, cryo-EM images of $\Phi_A$, $\Phi_A$
 \end{itemize}
 
-\begin{equation}\label{lin}
+\begin{equation*}\label{lin}
 A_l^{(B}-A_l^{(A)}=F_l^{(B)}O_l^{(B)}-F_l^{(B)}O_l^{(A)} \nonumber
-\end{equation}
+\end{equation*}
 \begin{itemize}
 \item $F_l^{(B)}$ and $F_l^{(A)}$ computed from the autocorrelation matrix (using 2D covariance matrix from cryo-EM images)
 \end{itemize}
@@ -1223,14 +1233,14 @@ A_l^{(B}-A_l^{(A)}=F_l^{(B)}O_l^{(B)}-F_l^{(B)}O_l^{(A)} \nonumber
 
 \begin{frame}<beamer>
 \frametitle{Relaxation to a Semidefinite Program (SDP) \blfootnote{TB, T. Zhang, A. Singer (2015)}}
-\begin{equation}\label{noncon}
+\begin{equation*}\label{noncon}
 \min_{O_l^{(1)},O_l^{(2)} \in \text{O}(2l+1)}
 \left\|A_l^{(2)}-A_l^{(1)}-F_l^{(2)}O_l^{(2)}+F_l^{(1)}O_l^{(1)} \right\|_F^2 \nonumber
-\end{equation}
+\end{equation*}
 can be written as
-\begin{equation}
+\begin{equation*}
 \min_Q \text{Tr}(WQ) \nonumber
-\end{equation}
+\end{equation*}
 \begin{itemize}
 \item $Q \in \mathbb{R}^{3(2l+1) \times 3(2l+1)}$
 \item subject to $Q_{ii} = I$,  $\text{rank}(Q) = 2l+1$ and $Q \succeq 0$,
@@ -1243,7 +1253,7 @@ $F_l^{(A)}$ and $F_l^{(B)}$
 %
 \begin{frame}<beamer>
 \frametitle{Preliminary Result: Kv1.2 Potassium Channel}
-Synthetic images with SNR$=0.7, 0.35$ (no CTF) \blfootnote{TB, T. Zhang, A. Singer (2015)}
+Synthetic images with SNR$=0.7, 0.35$ (\textbf{no CTF}) \blfootnote{TB, T. Zhang, A. Singer (2015)}
 \begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=.65 \columnwidth]{figures/proj_all.png}
@@ -1253,17 +1263,27 @@ Synthetic images with SNR$=0.7, 0.35$ (no CTF) \blfootnote{TB, T. Zhang, A. Sing
 
 \begin{frame}<beamer>
 \frametitle{Preliminary Result: Kv1.2 Potassium Channel}
-Synthetic images with noise (no CTF) \blfootnote{TB, T. Zhang, A. Singer (2015)}
+Clean synthetic images (\textbf{no CTF}) \blfootnote{TB, T. Zhang, A. Singer (2015)}
 \begin{figure}[!htbp]
 \begin{center}
-\includegraphics[width=.65 \columnwidth]{figures/reconstruction_all.png}
+\includegraphics[width=.65 \columnwidth]{figures/reconstruction_all_clean.pdf}
+\end{center}
+\end{figure}
+\end{frame}
+
+\begin{frame}<beamer>
+\frametitle{Preliminary Result: Kv1.2 Potassium Channel}
+OR with noisy, synthetic images (\textbf{no CTF}) \blfootnote{TB, T. Zhang, A. Singer (2015)}
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[width=.65 \columnwidth]{figures/reconstruction_all_noisy.pdf}
 \end{center}
 \end{figure}
 \end{frame}
 
 \begin{frame}<beamer>
 \frametitle{Validation: Fourier Cross Resolution}
-Synthetic images with noise (no CTF) \blfootnote{TB, T. Zhang, A. Singer (2015)}
+OR performs better due to addition information \blfootnote{TB, T. Zhang, A. Singer (2015)}
 \begin{figure}[t]
   \centering
   \includegraphics[width=.8\columnwidth]{figures/FSC_final.png}
@@ -1320,9 +1340,9 @@ magnitude?
 \item Asymptotically unbiased estimator \blfootnote{TB, T. Zhang, A. Singer (2017)} of $\bA$ when $N=D$ is given by
 \end{itemize}
 
-\begin{equation}
+\begin{equation*}
 \hat{\bA}_{\text{AT}}=\bB+\bU\bW\bU^*(\hat{\bA}_{\text{LS}}-\bB) \nonumber
-\end{equation}
+\end{equation*}
 where 
 $\bT$ is a diagonal matrix with
 $\bT_{ii}=\begin{cases}\frac{1}{D}\Big[-\frac{1}{2}+\sum_{1\leq j\leq 
@@ -1347,10 +1367,10 @@ Estimate autocorrelation matrices using CTF-corrected covariance from CWF \blfoo
 
 \begin{frame}<beamer>
 \frametitle{Unbiased Estimator: Anisotropic Twicing (AT) }
-\begin{equation}
+\begin{equation*}
 \label{eqn:biasvar}
 \text{MSE}=\mathbb{E}[||\theta-\hat{\theta}||^2] = ||\text{Bias}||^2 + \text{Var} \nonumber
-\end{equation}
+\end{equation*}
 \begin{figure}[!htbp]
 \begin{center}
 \includegraphics[scale=0.35]{figures/anis_bias_family.png}
