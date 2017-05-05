@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.14)  4 MAY 2017 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.14)  4 MAY 2017 21:28
 entering extended mode
 **./tejal_fpo.tex
 (tejal_fpo.tex
@@ -1204,6 +1204,9 @@ LaTeX Warning: Label `fig:rawims' multiply defined.
 LaTeX Warning: Label `fig:shrinkage' multiply defined.
 
 
+LaTeX Warning: Label `fig:shrinkage' multiply defined.
+
+
 LaTeX Warning: Label `' multiply defined.
 
 
@@ -1566,13 +1569,18 @@ Overfull \vbox (7.4481pt too high) detected at line 285
  <./figures/refinement.png>] [17
 
 ]
-<figures/cryoem_pipeline_ours.pdf, id=558, 967.76393pt x 254.95471pt>
+<figures/cryoem_pipeline_ours.pdf, id=558, 1007.45831pt x 331.14717pt>
 File: figures/cryoem_pipeline_ours.pdf Graphic file (type pdf)
 
 <use figures/cryoem_pipeline_ours.pdf>
 Package pdftex.def Info: figures/cryoem_pipeline_ours.pdf used on input line 31
 6.
-(pdftex.def)             Requested size: 338.72244pt x 89.23547pt.
+(pdftex.def)             Requested size: 352.61569pt x 115.90323pt.
+
+Overfull \hbox (10.32039pt too wide) in paragraph at lines 316--316
+ [] 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{fig:rawims}) 
 has been already used, duplicate ignored
 <to be read again> 
@@ -1673,42 +1681,53 @@ Overfull \vbox (5.62735pt too high) detected at line 443
 File: figures/mpplot_clt.png Graphic file (type png)
 
 <use figures/mpplot_clt.png>
-Package pdftex.def Info: figures/mpplot_clt.png used on input line 653.
+Package pdftex.def Info: figures/mpplot_clt.png used on input line 654.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 
 <figures/mpplot_high.png, id=1120, 903.375pt x 677.53125pt>
 File: figures/mpplot_high.png Graphic file (type png)
 
 <use figures/mpplot_high.png>
-Package pdftex.def Info: figures/mpplot_high.png used on input line 653.
+Package pdftex.def Info: figures/mpplot_high.png used on input line 654.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
- [36
+
+Overfull \vbox (2.63934pt too high) detected at line 654
+ []
+
+[36
 
  <./figures/mpplot_clt.png> <./figures/mpplot_high.png>]
 File: figures/mpplot_clt.png Graphic file (type png)
- <use figures/mpplot_clt.png>
-Package pdftex.def Info: figures/mpplot_clt.png used on input line 677.
+
+<use figures/mpplot_clt.png>
+Package pdftex.def Info: figures/mpplot_clt.png used on input line 678.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 File: figures/mpplot_high.png Graphic file (type png)
  <use figures/mpplot_high.png>
-Package pdftex.def Info: figures/mpplot_high.png used on input line 677.
+Package pdftex.def Info: figures/mpplot_high.png used on input line 678.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:shrinkage
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.677 \end{frame}
+l.678 \end{frame}
                  
-Overfull \vbox (2.16853pt too high) detected at line 677
+Overfull \vbox (2.16853pt too high) detected at line 678
  []
 
 [37
 
 ] [38
 
-] [39
+] <figures/blockcov.png, id=1209, 211.54031pt x 208.52907pt>
+File: figures/blockcov.png Graphic file (type png)
 
-] [40
+<use figures/blockcov.png>
+Package pdftex.def Info: figures/blockcov.png used on input line 717.
+(pdftex.def)             Requested size: 68.45801pt x 67.48158pt.
+ [39
+
+ <./figures/blockcov.png>] [40
 
 ] [41
 
@@ -1722,22 +1741,22 @@ d-to.pdf>
 (epstopdf)                    size: 4761 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/cwf_shrinkage_compa
 re-eps-converted-to.pdf figures/cwf_shrinkage_compare.eps>
-(epstopdf)             \includegraphics on input line 759.
+(epstopdf)             \includegraphics on input line 764.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/cwf_shrinkage_compare-eps-converted-to.pdf, id=1293, 500.87125pt x 391
+<figures/cwf_shrinkage_compare-eps-converted-to.pdf, id=1295, 500.87125pt x 391
 .4625pt>
 File: figures/cwf_shrinkage_compare-eps-converted-to.pdf Graphic file (type pdf
 )
  <use figures/cwf_shrinkage_compare-eps-converted-to.pdf>
 Package pdftex.def Info: figures/cwf_shrinkage_compare-eps-converted-to.pdf use
-d on input line 759.
+d on input line 764.
 (pdftex.def)             Requested size: 205.37926pt x 160.51857pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:shrinkage
 }) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.759 \end{frame}
+l.764 \end{frame}
                   [42
 
  <./figures/cwf_shrinkage_compare-eps-converted-to.pdf>]
@@ -1750,16 +1769,16 @@ rted-to.pdf>
 (epstopdf)                    size: 39732 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/compare_ims_snr1by1
 _6454-eps-converted-to.pdf figures/compare_ims_snr1by1_6454.eps>
-(epstopdf)             \includegraphics on input line 794.
+(epstopdf)             \includegraphics on input line 799.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare_ims_snr1by1_6454-eps-converted-to.pdf, id=1329, 722.7pt x 361.
+<figures/compare_ims_snr1by1_6454-eps-converted-to.pdf, id=1331, 722.7pt x 361.
 35pt>
 File: figures/compare_ims_snr1by1_6454-eps-converted-to.pdf Graphic file (type 
 pdf)
  <use figures/compare_ims_snr1by1_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_ims_snr1by1_6454-eps-converted-to.pdf 
-used on input line 794.
+used on input line 799.
 (pdftex.def)             Requested size: 119.80544pt x 59.90137pt.
 Package epstopdf Info: Source file: <figures/compare_ims_snr1by20_6454.eps>
 (epstopdf)                    date: 2017-02-09 22:19:44
@@ -1770,20 +1789,20 @@ erted-to.pdf>
 (epstopdf)                    size: 45014 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/compare_ims_snr1by2
 0_6454-eps-converted-to.pdf figures/compare_ims_snr1by20_6454.eps>
-(epstopdf)             \includegraphics on input line 794.
+(epstopdf)             \includegraphics on input line 799.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare_ims_snr1by20_6454-eps-converted-to.pdf, id=1330, 722.7pt x 361
+<figures/compare_ims_snr1by20_6454-eps-converted-to.pdf, id=1332, 722.7pt x 361
 .35pt>
 File: figures/compare_ims_snr1by20_6454-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/compare_ims_snr1by20_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_ims_snr1by20_6454-eps-converted-to.pdf
- used on input line 794.
+ used on input line 799.
 (pdftex.def)             Requested size: 119.80544pt x 59.90137pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 794.
+Package hyperref Warning: Ignoring empty anchor on input line 799.
 
 Package epstopdf Info: Source file: <figures/compare_ims_snr1by40_6454.eps>
 (epstopdf)                    date: 2017-02-09 22:19:44
@@ -1794,20 +1813,20 @@ erted-to.pdf>
 (epstopdf)                    size: 44900 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/compare_ims_snr1by4
 0_6454-eps-converted-to.pdf figures/compare_ims_snr1by40_6454.eps>
-(epstopdf)             \includegraphics on input line 794.
+(epstopdf)             \includegraphics on input line 799.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare_ims_snr1by40_6454-eps-converted-to.pdf, id=1331, 722.7pt x 361
+<figures/compare_ims_snr1by40_6454-eps-converted-to.pdf, id=1333, 722.7pt x 361
 .35pt>
 File: figures/compare_ims_snr1by40_6454-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/compare_ims_snr1by40_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_ims_snr1by40_6454-eps-converted-to.pdf
- used on input line 794.
+ used on input line 799.
 (pdftex.def)             Requested size: 119.80544pt x 59.90137pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 794.
+Package hyperref Warning: Ignoring empty anchor on input line 799.
 
 Package epstopdf Info: Source file: <figures/compare_ims_snr1by60_6454.eps>
 (epstopdf)                    date: 2017-02-09 22:19:44
@@ -1818,20 +1837,20 @@ erted-to.pdf>
 (epstopdf)                    size: 45589 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/compare_ims_snr1by6
 0_6454-eps-converted-to.pdf figures/compare_ims_snr1by60_6454.eps>
-(epstopdf)             \includegraphics on input line 794.
+(epstopdf)             \includegraphics on input line 799.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare_ims_snr1by60_6454-eps-converted-to.pdf, id=1332, 722.7pt x 361
+<figures/compare_ims_snr1by60_6454-eps-converted-to.pdf, id=1334, 722.7pt x 361
 .35pt>
 File: figures/compare_ims_snr1by60_6454-eps-converted-to.pdf Graphic file (type
  pdf)
  <use figures/compare_ims_snr1by60_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_ims_snr1by60_6454-eps-converted-to.pdf
- used on input line 794.
+ used on input line 799.
 (pdftex.def)             Requested size: 119.80544pt x 59.90137pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 794.
+Package hyperref Warning: Ignoring empty anchor on input line 799.
 
 [43
 
@@ -1849,15 +1868,15 @@ Package epstopdf Info: Source file: <figures/raw_title.eps>
 (epstopdf)                    size: 61230 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/raw_title-eps-conve
 rted-to.pdf figures/raw_title.eps>
-(epstopdf)             \includegraphics on input line 839.
+(epstopdf)             \includegraphics on input line 844.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/raw_title-eps-converted-to.pdf, id=1434, 495.8525pt x 406.51875pt>
+<figures/raw_title-eps-converted-to.pdf, id=1436, 495.8525pt x 406.51875pt>
 File: figures/raw_title-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/raw_title-eps-converted-to.pdf>
 Package pdftex.def Info: figures/raw_title-eps-converted-to.pdf used on input l
-ine 839.
+ine 844.
 (pdftex.def)             Requested size: 116.37914pt x 95.40785pt.
 Package epstopdf Info: Source file: <figures/den_title.eps>
 (epstopdf)                    date: 2017-02-09 22:19:44
@@ -1867,15 +1886,15 @@ Package epstopdf Info: Source file: <figures/den_title.eps>
 (epstopdf)                    size: 30560 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/den_title-eps-conve
 rted-to.pdf figures/den_title.eps>
-(epstopdf)             \includegraphics on input line 839.
+(epstopdf)             \includegraphics on input line 844.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/den_title-eps-converted-to.pdf, id=1435, 487.8225pt x 402.50375pt>
+<figures/den_title-eps-converted-to.pdf, id=1437, 487.8225pt x 402.50375pt>
 File: figures/den_title-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/den_title-eps-converted-to.pdf>
 Package pdftex.def Info: figures/den_title-eps-converted-to.pdf used on input l
-ine 839.
+ine 844.
 (pdftex.def)             Requested size: 116.37914pt x 96.01941pt.
 Package epstopdf Info: Source file: <figures/mean_image.eps>
 (epstopdf)                    date: 2017-02-09 22:19:45
@@ -1885,15 +1904,15 @@ Package epstopdf Info: Source file: <figures/mean_image.eps>
 (epstopdf)                    size: 4213 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/mean_image-eps-conv
 erted-to.pdf figures/mean_image.eps>
-(epstopdf)             \includegraphics on input line 839.
+(epstopdf)             \includegraphics on input line 844.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/mean_image-eps-converted-to.pdf, id=1436, 258.9675pt x 258.9675pt>
+<figures/mean_image-eps-converted-to.pdf, id=1438, 258.9675pt x 258.9675pt>
 File: figures/mean_image-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/mean_image-eps-converted-to.pdf>
 Package pdftex.def Info: figures/mean_image-eps-converted-to.pdf used on input 
-line 839.
+line 844.
 (pdftex.def)             Requested size: 34.23161pt x 34.22806pt.
 Package epstopdf Info: Source file: <figures/top_eigim.eps>
 (epstopdf)                    date: 2017-02-09 22:19:46
@@ -1903,15 +1922,15 @@ Package epstopdf Info: Source file: <figures/top_eigim.eps>
 (epstopdf)                    size: 9203 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/top_eigim-eps-conve
 rted-to.pdf figures/top_eigim.eps>
-(epstopdf)             \includegraphics on input line 839.
+(epstopdf)             \includegraphics on input line 844.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/top_eigim-eps-converted-to.pdf, id=1437, 321.2pt x 61.22874pt>
+<figures/top_eigim-eps-converted-to.pdf, id=1439, 321.2pt x 61.22874pt>
 File: figures/top_eigim-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/top_eigim-eps-converted-to.pdf>
 Package pdftex.def Info: figures/top_eigim-eps-converted-to.pdf used on input l
-ine 839.
+ine 844.
 (pdftex.def)             Requested size: 154.03183pt x 29.36328pt.
  [45
 
@@ -1926,19 +1945,19 @@ Package epstopdf Info: Source file: <figures/jsb_fig_80s.eps>
 (epstopdf)                    size: 374591 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/jsb_fig_80s-eps-con
 verted-to.pdf figures/jsb_fig_80s.eps>
-(epstopdf)             \includegraphics on input line 861.
+(epstopdf)             \includegraphics on input line 866.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/jsb_fig_80s-eps-converted-to.pdf, id=1497, 578.16pt x 433.62pt>
+<figures/jsb_fig_80s-eps-converted-to.pdf, id=1499, 578.16pt x 433.62pt>
 File: figures/jsb_fig_80s-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/jsb_fig_80s-eps-converted-to.pdf>
 Package pdftex.def Info: figures/jsb_fig_80s-eps-converted-to.pdf used on input
- line 861.
+ line 866.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 861.
+Package hyperref Warning: Ignoring empty anchor on input line 866.
 
 [46
 
@@ -1951,19 +1970,19 @@ Package epstopdf Info: Source file: <figures/jsb_fig_tv.eps>
 (epstopdf)                    size: 267739 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/jsb_fig_tv-eps-conv
 erted-to.pdf figures/jsb_fig_tv.eps>
-(epstopdf)             \includegraphics on input line 884.
+(epstopdf)             \includegraphics on input line 889.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/jsb_fig_tv-eps-converted-to.pdf, id=1541, 578.16pt x 433.62pt>
+<figures/jsb_fig_tv-eps-converted-to.pdf, id=1543, 578.16pt x 433.62pt>
 File: figures/jsb_fig_tv-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/jsb_fig_tv-eps-converted-to.pdf>
 Package pdftex.def Info: figures/jsb_fig_tv-eps-converted-to.pdf used on input 
-line 884.
+line 889.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 884.
+Package hyperref Warning: Ignoring empty anchor on input line 889.
 
 [47
 
@@ -1976,19 +1995,19 @@ Package epstopdf Info: Source file: <figures/jsb_fig_ip3.eps>
 (epstopdf)                    size: 219225 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/jsb_fig_ip3-eps-con
 verted-to.pdf figures/jsb_fig_ip3.eps>
-(epstopdf)             \includegraphics on input line 904.
+(epstopdf)             \includegraphics on input line 909.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/jsb_fig_ip3-eps-converted-to.pdf, id=1585, 578.16pt x 433.62pt>
+<figures/jsb_fig_ip3-eps-converted-to.pdf, id=1587, 578.16pt x 433.62pt>
 File: figures/jsb_fig_ip3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/jsb_fig_ip3-eps-converted-to.pdf>
 Package pdftex.def Info: figures/jsb_fig_ip3-eps-converted-to.pdf used on input
- line 904.
+ line 909.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 904.
+Package hyperref Warning: Ignoring empty anchor on input line 909.
 
 [48
 
@@ -2001,19 +2020,19 @@ Package epstopdf Info: Source file: <figures/jsb_fig_70s.eps>
 (epstopdf)                    size: 291269 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/jsb_fig_70s-eps-con
 verted-to.pdf figures/jsb_fig_70s.eps>
-(epstopdf)             \includegraphics on input line 923.
+(epstopdf)             \includegraphics on input line 928.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/jsb_fig_70s-eps-converted-to.pdf, id=1628, 578.16pt x 433.62pt>
+<figures/jsb_fig_70s-eps-converted-to.pdf, id=1630, 578.16pt x 433.62pt>
 File: figures/jsb_fig_70s-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/jsb_fig_70s-eps-converted-to.pdf>
 Package pdftex.def Info: figures/jsb_fig_70s-eps-converted-to.pdf used on input
- line 923.
+ line 928.
 (pdftex.def)             Requested size: 171.14764pt x 128.36009pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 923.
+Package hyperref Warning: Ignoring empty anchor on input line 928.
 
 [49
 
@@ -2023,51 +2042,51 @@ Package hyperref Warning: Ignoring empty anchor on input line 923.
 File: figures/refinement.png Graphic file (type png)
 
 <use figures/refinement.png>
-Package pdftex.def Info: figures/refinement.png used on input line 996.
+Package pdftex.def Info: figures/refinement.png used on input line 1001.
 (pdftex.def)             Requested size: 71.88242pt x 196.00388pt.
  [51
 
 ]
-<figures/beryl.jpg, id=1728, 552.0625pt x 413.545pt>
+<figures/beryl.jpg, id=1730, 552.0625pt x 413.545pt>
 File: figures/beryl.jpg Graphic file (type jpg)
  <use figures/beryl.jpg>
-Package pdftex.def Info: figures/beryl.jpg used on input line 1011.
+Package pdftex.def Info: figures/beryl.jpg used on input line 1016.
 (pdftex.def)             Requested size: 85.57382pt x 64.0988pt.
 
-<figures/diffpattern.png, id=1729, 504.38437pt x 516.42938pt>
+<figures/diffpattern.png, id=1731, 504.38437pt x 516.42938pt>
 File: figures/diffpattern.png Graphic file (type png)
 
 <use figures/diffpattern.png>
-Package pdftex.def Info: figures/diffpattern.png used on input line 1011.
+Package pdftex.def Info: figures/diffpattern.png used on input line 1016.
 (pdftex.def)             Requested size: 75.65439pt x 77.46106pt.
  [52
 
- <./figures/beryl.jpg> <./figures/diffpattern.png>] <figures/cat.png, id=1758, 
+ <./figures/beryl.jpg> <./figures/diffpattern.png>] <figures/cat.png, id=1760, 
 299.6713pt x 299.6713pt>
 File: figures/cat.png Graphic file (type png)
 
 <use figures/cat.png>
-Package pdftex.def Info: figures/cat.png used on input line 1031.
+Package pdftex.def Info: figures/cat.png used on input line 1036.
 (pdftex.def)             Requested size: 51.3422pt x 51.34125pt.
- <figures/cat_tail.png, id=1759, 299.6713pt x 299.6713pt>
+ <figures/cat_tail.png, id=1761, 299.6713pt x 299.6713pt>
 File: figures/cat_tail.png Graphic file (type png)
 
 <use figures/cat_tail.png>
-Package pdftex.def Info: figures/cat_tail.png used on input line 1031.
+Package pdftex.def Info: figures/cat_tail.png used on input line 1036.
 (pdftex.def)             Requested size: 51.3422pt x 51.34125pt.
 
-<figures/cat_t1.png, id=1760, 299.6713pt x 299.6713pt>
+<figures/cat_t1.png, id=1762, 299.6713pt x 299.6713pt>
 File: figures/cat_t1.png Graphic file (type png)
 
 <use figures/cat_t1.png>
-Package pdftex.def Info: figures/cat_t1.png used on input line 1031.
+Package pdftex.def Info: figures/cat_t1.png used on input line 1036.
 (pdftex.def)             Requested size: 51.3422pt x 51.34125pt.
 
-<figures/cat_t2.png, id=1761, 299.6713pt x 299.6713pt>
+<figures/cat_t2.png, id=1763, 299.6713pt x 299.6713pt>
 File: figures/cat_t2.png Graphic file (type png)
 
 <use figures/cat_t2.png>
-Package pdftex.def Info: figures/cat_t2.png used on input line 1031.
+Package pdftex.def Info: figures/cat_t2.png used on input line 1036.
 (pdftex.def)             Requested size: 51.3422pt x 51.34125pt.
  [53
 
@@ -2081,7 +2100,7 @@ Package pdftex.def Info: figures/cat_t2.png used on input line 1031.
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1072 \end{frame}
+l.1077 \end{frame}
                    [56
 
 ] [57
@@ -2090,12 +2109,12 @@ l.1072 \end{frame}
 nsion_full}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1117 \end{frame}
+l.1122 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{eq:Cl}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1117 \end{frame}
+l.1122 \end{frame}
                    [58
 
 ] [59
@@ -2113,23 +2132,23 @@ l.1117 \end{frame}
 ] [65
 
 ]
-<figures/or_flow_q.png, id=2126, 775.39688pt x 243.91125pt>
+<figures/or_flow_q.png, id=2128, 775.39688pt x 243.91125pt>
 File: figures/or_flow_q.png Graphic file (type png)
 
 <use figures/or_flow_q.png>
-Package pdftex.def Info: figures/or_flow_q.png used on input line 1252.
+Package pdftex.def Info: figures/or_flow_q.png used on input line 1257.
 (pdftex.def)             Requested size: 308.06367pt x 96.90773pt.
  [66
 
  <./figures/or_flow_q.png>]
-<figures/or_flow.png, id=2154, 839.38594pt x 663.98062pt>
+<figures/or_flow.png, id=2156, 839.38594pt x 663.98062pt>
 File: figures/or_flow.png Graphic file (type png)
 
 <use figures/or_flow.png>
-Package pdftex.def Info: figures/or_flow.png used on input line 1264.
+Package pdftex.def Info: figures/or_flow.png used on input line 1269.
 (pdftex.def)             Requested size: 256.72147pt x 203.07608pt.
 
-Overfull \vbox (25.28448pt too high) detected at line 1264
+Overfull \vbox (25.28448pt too high) detected at line 1269
  []
 
 [67
@@ -2141,53 +2160,53 @@ Overfull \vbox (25.28448pt too high) detected at line 1264
 ] [70
 
 ]
-<figures/proj_all.png, id=2268, 752.8125pt x 276.28218pt>
+<figures/proj_all.png, id=2270, 752.8125pt x 276.28218pt>
 File: figures/proj_all.png Graphic file (type png)
 
 <use figures/proj_all.png>
-Package pdftex.def Info: figures/proj_all.png used on input line 1328.
+Package pdftex.def Info: figures/proj_all.png used on input line 1333.
 (pdftex.def)             Requested size: 222.48985pt x 81.6543pt.
  [71
 
  <./figures/proj_all.png>]
-<figures/reconstruction_all_clean.pdf, id=2297, 1358.82657pt x 936.76947pt>
+<figures/reconstruction_all_clean.pdf, id=2299, 1358.82657pt x 936.76947pt>
 File: figures/reconstruction_all_clean.pdf Graphic file (type pdf)
 
 <use figures/reconstruction_all_clean.pdf>
 Package pdftex.def Info: figures/reconstruction_all_clean.pdf used on input lin
-e 1338.
+e 1343.
 (pdftex.def)             Requested size: 222.48985pt x 153.37389pt.
  [72
 
  <./figures/reconstruction_all_clean.pdf>]
-<figures/reconstruction_all_noisy.pdf, id=2342, 1352.05125pt x 892.37143pt>
+<figures/reconstruction_all_noisy.pdf, id=2344, 1352.05125pt x 892.37143pt>
 File: figures/reconstruction_all_noisy.pdf Graphic file (type pdf)
 
 <use figures/reconstruction_all_noisy.pdf>
 Package pdftex.def Info: figures/reconstruction_all_noisy.pdf used on input lin
-e 1348.
+e 1353.
 (pdftex.def)             Requested size: 222.48985pt x 146.84004pt.
  [73
 
- <./figures/reconstruction_all_noisy.pdf>] <figures/FSC_final.png, id=2388, 489
+ <./figures/reconstruction_all_noisy.pdf>] <figures/FSC_final.png, id=2390, 489
 .32813pt x 309.40594pt>
 File: figures/FSC_final.png Graphic file (type png)
 
 <use figures/FSC_final.png>
-Package pdftex.def Info: figures/FSC_final.png used on input line 1358.
+Package pdftex.def Info: figures/FSC_final.png used on input line 1363.
 (pdftex.def)             Requested size: 273.83728pt x 173.15283pt.
 
-Overfull \vbox (16.36124pt too high) detected at line 1358
+Overfull \vbox (16.36124pt too high) detected at line 1363
  []
 
 [74
 
  <./figures/FSC_final.png (PNG copy)>]
-<figures/reconstruction_all.png, id=2418, 1352.05125pt x 1078.0275pt>
+<figures/reconstruction_all.png, id=2420, 1352.05125pt x 1078.0275pt>
 File: figures/reconstruction_all.png Graphic file (type png)
 
 <use figures/reconstruction_all.png>
-Package pdftex.def Info: figures/reconstruction_all.png used on input line 1377
+Package pdftex.def Info: figures/reconstruction_all.png used on input line 1382
 .
 (pdftex.def)             Requested size: 162.58974pt x 129.6209pt.
  [75
@@ -2196,65 +2215,65 @@ Package pdftex.def Info: figures/reconstruction_all.png used on input line 1377
 File: figures/cat.png Graphic file (type png)
 
 <use figures/cat.png>
-Package pdftex.def Info: figures/cat.png used on input line 1400.
+Package pdftex.def Info: figures/cat.png used on input line 1405.
 (pdftex.def)             Requested size: 59.90271pt x 59.90118pt.
 File: figures/cat_tail.png Graphic file (type png)
  <use figures/cat_tail.png>
-Package pdftex.def Info: figures/cat_tail.png used on input line 1400.
+Package pdftex.def Info: figures/cat_tail.png used on input line 1405.
 (pdftex.def)             Requested size: 59.90271pt x 59.90118pt.
 File: figures/cat_t1.png Graphic file (type png)
  <use figures/cat_t1.png>
-Package pdftex.def Info: figures/cat_t1.png used on input line 1400.
+Package pdftex.def Info: figures/cat_t1.png used on input line 1405.
 (pdftex.def)             Requested size: 59.90271pt x 59.90118pt.
 File: figures/cat_t2.png Graphic file (type png)
 
 <use figures/cat_t2.png>
-Package pdftex.def Info: figures/cat_t2.png used on input line 1400.
+Package pdftex.def Info: figures/cat_t2.png used on input line 1405.
 (pdftex.def)             Requested size: 59.90271pt x 59.90118pt.
  [76
 
 ] [77
 
 ]
-<figures/anis_bias_family_few.png, id=2501, 578.16pt x 433.62pt>
+<figures/anis_bias_family_few.png, id=2503, 578.16pt x 433.62pt>
 File: figures/anis_bias_family_few.png Graphic file (type png)
 
 <use figures/anis_bias_family_few.png>
 Package pdftex.def Info: figures/anis_bias_family_few.png used on input line 14
-39.
+44.
 (pdftex.def)             Requested size: 202.35902pt x 151.76927pt.
 
-Overfull \vbox (0.28601pt too high) detected at line 1439
+Overfull \vbox (0.28601pt too high) detected at line 1444
  []
 
 [78
 
  <./figures/anis_bias_family_few.png (PNG copy)>]
-<figures/mickey.pdf, id=2530, 2119.40318pt x 775.79356pt>
+<figures/mickey.pdf, id=2532, 2119.40318pt x 775.79356pt>
 File: figures/mickey.pdf Graphic file (type pdf)
 
 <use figures/mickey.pdf>
-Package pdftex.def Info: figures/mickey.pdf used on input line 1451.
+Package pdftex.def Info: figures/mickey.pdf used on input line 1456.
 (pdftex.def)             Requested size: 339.11143pt x 124.1295pt.
  [79
 
  <./figures/mickey.pdf>]
-<figures/sim8117_compare.pdf, id=2571, 1235.01402pt x 721.185pt>
+<figures/sim8117_compare.pdf, id=2573, 1235.01402pt x 721.185pt>
 File: figures/sim8117_compare.pdf Graphic file (type pdf)
 
 <use figures/sim8117_compare.pdf>
-Package pdftex.def Info: figures/sim8117_compare.pdf used on input line 1464.
+Package pdftex.def Info: figures/sim8117_compare.pdf used on input line 1469.
 (pdftex.def)             Requested size: 136.91603pt x 79.94684pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:simtrpv_e
 mdb}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1464 \end{frame}
-                   <figures/sim8117.pdf, id=2572, 2526.54045pt x 598.97218pt>
+l.1469 \end{frame}
+                   <figures/sim8117.pdf, id=2574, 2526.54045pt x 598.97218pt>
 File: figures/sim8117.pdf Graphic file (type pdf)
 
 <use figures/sim8117.pdf>
-Package pdftex.def Info: figures/sim8117.pdf used on input line 1464.
+Package pdftex.def Info: figures/sim8117.pdf used on input line 1469.
 (pdftex.def)             Requested size: 308.06367pt x 73.02515pt.
  [80
 
@@ -2262,18 +2281,18 @@ Package pdftex.def Info: figures/sim8117.pdf used on input line 1464.
 
 pdfTeX warning: pdflatex (file ./figures/sim8117.pdf): PDF inclusion: multiple 
 pdfs with page group included in a single page
->] <figures/realdat_unif1.pdf, id=2622, 1901.16792pt x 677.45737pt>
+>] <figures/realdat_unif1.pdf, id=2624, 1901.16792pt x 677.45737pt>
 File: figures/realdat_unif1.pdf Graphic file (type pdf)
 
 <use figures/realdat_unif1.pdf>
-Package pdftex.def Info: figures/realdat_unif1.pdf used on input line 1481.
+Package pdftex.def Info: figures/realdat_unif1.pdf used on input line 1486.
 (pdftex.def)             Requested size: 171.14764pt x 60.97887pt.
 
-<figures/realdat_unif0.pdf, id=2623, 1895.08pt x 673.85994pt>
+<figures/realdat_unif0.pdf, id=2625, 1895.08pt x 673.85994pt>
 File: figures/realdat_unif0.pdf Graphic file (type pdf)
 
 <use figures/realdat_unif0.pdf>
-Package pdftex.def Info: figures/realdat_unif0.pdf used on input line 1481.
+Package pdftex.def Info: figures/realdat_unif0.pdf used on input line 1486.
 (pdftex.def)             Requested size: 171.14764pt x 60.85042pt.
  [81
 
@@ -2281,19 +2300,19 @@ Package pdftex.def Info: figures/realdat_unif0.pdf used on input line 1481.
 
 pdfTeX warning: pdflatex (file ./figures/realdat_unif0.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] <figures/realdat_109_fsc.png, id=2675, 480.8364pt x 397.0032pt>
+>] <figures/realdat_109_fsc.png, id=2677, 480.8364pt x 397.0032pt>
 File: figures/realdat_109_fsc.png Graphic file (type png)
 
 <use figures/realdat_109_fsc.png>
-Package pdftex.def Info: figures/realdat_109_fsc.png used on input line 1496.
+Package pdftex.def Info: figures/realdat_109_fsc.png used on input line 1501.
 (pdftex.def)             Requested size: 154.03183pt x 127.17688pt.
 
-<figures/realdat_109ball_fsc.png, id=2676, 478.9092pt x 397.485pt>
+<figures/realdat_109ball_fsc.png, id=2678, 478.9092pt x 397.485pt>
 File: figures/realdat_109ball_fsc.png Graphic file (type png)
 
 <use figures/realdat_109ball_fsc.png>
-Package pdftex.def Info: figures/realdat_109ball_fsc.png used on input line 149
-6.
+Package pdftex.def Info: figures/realdat_109ball_fsc.png used on input line 150
+1.
 (pdftex.def)             Requested size: 154.03183pt x 127.8407pt.
  [82
 
@@ -2317,16 +2336,16 @@ onverted-to.pdf>
 (epstopdf)                    size: 39484 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/compare_ims_col_snr
 1by1_6454-eps-converted-to.pdf figures/compare_ims_col_snr1by1_6454.eps>
-(epstopdf)             \includegraphics on input line 1582.
+(epstopdf)             \includegraphics on input line 1587.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare_ims_col_snr1by1_6454-eps-converted-to.pdf, id=2841, 722.7pt x 
+<figures/compare_ims_col_snr1by1_6454-eps-converted-to.pdf, id=2843, 722.7pt x 
 361.35pt>
 File: figures/compare_ims_col_snr1by1_6454-eps-converted-to.pdf Graphic file (t
 ype pdf)
  <use figures/compare_ims_col_snr1by1_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_ims_col_snr1by1_6454-eps-converted-to.
-pdf used on input line 1582.
+pdf used on input line 1587.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 Package epstopdf Info: Source file: <figures/compare_ims_col_snr1by10_6454.eps>
 
@@ -2338,20 +2357,20 @@ converted-to.pdf>
 (epstopdf)                    size: 43680 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/compare_ims_col_snr
 1by10_6454-eps-converted-to.pdf figures/compare_ims_col_snr1by10_6454.eps>
-(epstopdf)             \includegraphics on input line 1582.
+(epstopdf)             \includegraphics on input line 1587.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare_ims_col_snr1by10_6454-eps-converted-to.pdf, id=2842, 722.7pt x
+<figures/compare_ims_col_snr1by10_6454-eps-converted-to.pdf, id=2844, 722.7pt x
  361.35pt>
 File: figures/compare_ims_col_snr1by10_6454-eps-converted-to.pdf Graphic file (
 type pdf)
  <use figures/compare_ims_col_snr1by10_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_ims_col_snr1by10_6454-eps-converted-to
-.pdf used on input line 1582.
+.pdf used on input line 1587.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 1582.
+Package hyperref Warning: Ignoring empty anchor on input line 1587.
 
 Package epstopdf Info: Source file: <figures/compare_ims_col_snr1by20_6454.eps>
 
@@ -2363,20 +2382,20 @@ converted-to.pdf>
 (epstopdf)                    size: 53097 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/compare_ims_col_snr
 1by20_6454-eps-converted-to.pdf figures/compare_ims_col_snr1by20_6454.eps>
-(epstopdf)             \includegraphics on input line 1582.
+(epstopdf)             \includegraphics on input line 1587.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/compare_ims_col_snr1by20_6454-eps-converted-to.pdf, id=2843, 722.7pt x
+<figures/compare_ims_col_snr1by20_6454-eps-converted-to.pdf, id=2845, 722.7pt x
  361.35pt>
 File: figures/compare_ims_col_snr1by20_6454-eps-converted-to.pdf Graphic file (
 type pdf)
  <use figures/compare_ims_col_snr1by20_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/compare_ims_col_snr1by20_6454-eps-converted-to
-.pdf used on input line 1582.
+.pdf used on input line 1587.
 (pdftex.def)             Requested size: 136.91603pt x 68.45871pt.
 
 
-Package hyperref Warning: Ignoring empty anchor on input line 1582.
+Package hyperref Warning: Ignoring empty anchor on input line 1587.
 
 [88
 
@@ -2392,15 +2411,15 @@ Package epstopdf Info: Source file: <figures/mse_snr_6454.eps>
 (epstopdf)                    size: 3439 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/mse_snr_6454-eps-co
 nverted-to.pdf figures/mse_snr_6454.eps>
-(epstopdf)             \includegraphics on input line 1600.
+(epstopdf)             \includegraphics on input line 1605.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/mse_snr_6454-eps-converted-to.pdf, id=2901, 497.86pt x 394.47375pt>
+<figures/mse_snr_6454-eps-converted-to.pdf, id=2903, 497.86pt x 394.47375pt>
 File: figures/mse_snr_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/mse_snr_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/mse_snr_6454-eps-converted-to.pdf used on inpu
-t line 1600.
+t line 1605.
 (pdftex.def)             Requested size: 171.14764pt x 135.60603pt.
 Package epstopdf Info: Source file: <figures/mse_nims_6454.eps>
 (epstopdf)                    date: 2017-02-09 22:19:45
@@ -2411,18 +2430,18 @@ Package epstopdf Info: Source file: <figures/mse_nims_6454.eps>
 (epstopdf)                    size: 3524 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/mse_nims_6454-eps-c
 onverted-to.pdf figures/mse_nims_6454.eps>
-(epstopdf)             \includegraphics on input line 1600.
+(epstopdf)             \includegraphics on input line 1605.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/mse_nims_6454-eps-converted-to.pdf, id=2902, 497.86pt x 400.49625pt>
+<figures/mse_nims_6454-eps-converted-to.pdf, id=2904, 497.86pt x 400.49625pt>
 File: figures/mse_nims_6454-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/mse_nims_6454-eps-converted-to.pdf>
 Package pdftex.def Info: figures/mse_nims_6454-eps-converted-to.pdf used on inp
-ut line 1600.
+ut line 1605.
 (pdftex.def)             Requested size: 171.14764pt x 137.67635pt.
 
-Overfull \hbox (3.649pt too wide) in paragraph at lines 1600--1600
+Overfull \hbox (3.649pt too wide) in paragraph at lines 1605--1605
  [][] 
  []
 
@@ -2446,11 +2465,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1601.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1601.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1606.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1606.
 (tejal_fpo.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1601.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1601.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1606.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1606.
 
 Package rerunfilecheck Info: File `tejal_fpo.out' has not changed.
 (rerunfilecheck)             Checksum: 2B3D13123ADCC81F32C10D13360A48E7;317.
@@ -2464,10 +2483,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21146 strings out of 493335
- 393920 string characters out of 3136683
+ 21151 strings out of 493335
+ 394031 string characters out of 3136683
  591121 words of memory out of 3000000
- 23870 multiletter control sequences out of 15000+200000
+ 23874 multiletter control sequences out of 15000+200000
  20652 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,60p,799b,800s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2494,9 +2513,9 @@ nts/type1/public/amsfonts/cm/cmti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 pe1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/urw/zapfding/uzdr.pfb>
-Output written on tejal_fpo.pdf (89 pages, 17641066 bytes).
+Output written on tejal_fpo.pdf (89 pages, 17657024 bytes).
 PDF statistics:
- 3060 PDF objects out of 3580 (max. 8388607)
+ 3062 PDF objects out of 3580 (max. 8388607)
  222 named destinations out of 1000 (max. 500000)
- 419 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 

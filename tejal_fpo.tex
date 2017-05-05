@@ -635,6 +635,7 @@ decomposition of $B$ and set all negative eigenvalues to 0  (eigenvalue threshol
 \setbeamercovered{transparent}
 \begin{itemize}[]
 \item $n \asymp p$ regime: sample covariance not a good approximation to the population covariance * \blfootnote{* Johnstone (2001)}
+\item Mar\v{c}enko-Pastur distribution
 \end{itemize}
 \begin{columns}
 \column{0.5\linewidth}
@@ -700,14 +701,18 @@ with $H_i = \hat \Sigma A_{i}^T W^T (W A_{i} \hat \Sigma A_{i}^T W^T
 \begin{frame}<beamer>
 \setbeamercovered{transparent}
 \frametitle{Fourier-Bessel Steerable Basis }
+\begin{figure}
+\centering
+\includegraphics[width=0.2\linewidth]{figures/blockcov.png}
+\caption{Z. Zhao and A. Singer (2013)}
+\end{figure}
 \begin{itemize}[]
-\item The population covariance matrix $\Sigma$ must be invariant under in-plane 
-rotation of the projection images
+\item Population covariance matrix $\Sigma$ invariant under in-plane 
+rotation of projection images
 \item Block diagonal in any steerable basis in which the 
-basis elements are outer products of radial functions and angular Fourier modes\blfootnote{Z. Zhao, Y. Shkolnisky and A. Singer (2016)}
-\item Suffices to 
-estimate each diagonal block of $\Sigma$, corresponding to the angular frequency $k$, separately
-\item \textbf{Nearly unitary transformation}
+basis elements are outer products of radial functions and angular Fourier modes
+\item \textbf{Nearly unitary transformation: noise statistics preserved}
+\item \textbf{Fast computation} for each block separately
 \end{itemize}
 \end{frame}
 
@@ -715,7 +720,7 @@ estimate each diagonal block of $\Sigma$, corresponding to the angular frequency
 \frametitle{Computational Complexity}
 $O(TDL^4 + nL^3)$, where $T$ is the number of conjugate gradient iterations
 \begin{itemize}
-\item $D$ defocus groups with $d_i$ images in group $i$
+\item $D$ defocus groups
 \item Images of size $L \times L$
 \item \textit{n} images
 \end{itemize}
@@ -1440,7 +1445,7 @@ and $\bW=(\bI-\bT)^{-1}$
 
 \begin{frame}<beamer>
 \frametitle{Synthetic Dataset: Toy Molecule }
-Clean, $1000$ images\\
+$10000$, clean images\\
 Relative error in unknown subunit: AT $19\%$, Twicing $31\%$, LS $59\%$ 
 \begin{figure}[!htbp]
 \begin{center}
