@@ -249,7 +249,7 @@ Advisers: Amit Singer and Joshua Shaevitz}
 
 \begin{frame}<beamer>
 \setbeamercovered{transparent}
-\frametitle{Challenge: Covariance Estimation}
+\frametitle{Challenge 1: Covariance Estimation}
 \begin{columns}
 \column{1\linewidth} 
 \begin{figure}
@@ -267,7 +267,7 @@ Advisers: Amit Singer and Joshua Shaevitz}
 
 \begin{frame}<beamer>
 \setbeamercovered{transparent}
-\frametitle{Challenge: Initial Model for 3D Refinement}
+\frametitle{Challenge 2: Initial Model for 3D Refinement}
 \begin{columns}
 \column{0.5\linewidth}
 \begin{figure}
@@ -318,7 +318,7 @@ Algorithms validated on both synthetic and real experimental datasets
 
 \begin{frame}<beamer>
 \setbeamercovered{transparent}
-\frametitle{Denoising: Real TRPV1 dataset}
+\frametitle{Teaser: Denoising Result}
 \begin{columns}<+->
 \column{0.2\linewidth}
 
@@ -354,7 +354,7 @@ Algorithms validated on both synthetic and real experimental datasets
 
 
 \begin{frame}<beamer>
-\frametitle{Homology modeling: synthetic TRPV1 dataset}
+\frametitle{Teaser: Homology Modeling with Synthetic TRPV1 Data}
 \begin{figure}[!htbp]
 \begin{tabular}{cc}
 \includegraphics[width=0.95\linewidth]{figures/trpv1_flowchart.pdf}\label{fig:simtrpv_emdb}
@@ -979,6 +979,15 @@ $10\%$ images are pure noise
 %Improved nearest neighbor detection using Mahalanobis affinity\blfootnote{TB, Z. Zhao and A. Singer (2017)}
 %\end{frame}
 
+\begin{frame}<beamer>
+\frametitle{Part 1: Summary}
+\begin{itemize}
+\item Covariance estimation: CTf correction and denoising
+\item Outlier detection
+\item Estimated covariance needed for homology modeling (next)
+\end{itemize}
+\end{frame}
+
 
 \section{Part 2: 3D Homology Modeling}
 
@@ -1196,24 +1205,6 @@ B_{lm}(k) Y_l^m (\theta, \varphi)
 \begin{frame}<beamer>
 \frametitle{Orthogonal Extension (OE) \blfootnote{TB, T. Zhang, A. Singer (2015)}}
 \begin{itemize}
-\item Determine the coefficient matrices $\bA_{\boldsymbol{l}}$
-\item Known, homologous structure $\Phi_B$
-\end{itemize}
-\begin{equation*}
-\mathcal{F}(\Phi_B)(k,\theta,\varphi) = \sum_{l=0}^{L_B} \sum_{m=-l}^{l}
-B_{lm}(k) Y_l^m (\theta, \varphi)
-\end{equation*} 
-\begin{itemize}
-\item $\bF_{\boldsymbol{l}}$: any matrix of size $S_l\times 2l+1$ satisfying $\bC_{\boldsymbol{l}}= \bF_{\boldsymbol{l}} \bF_{\boldsymbol{l}}^*$
-\end{itemize}
-\begin{equation*}
-\bA_{\boldsymbol{l}} = \bF_{\boldsymbol{l}} \bO_{\boldsymbol{l}}
-\end{equation*}
-\end{frame}
-
-\begin{frame}<beamer>
-\frametitle{Orthogonal Extension (OE) \blfootnote{TB, T. Zhang, A. Singer (2015)}}
-\begin{itemize}
 \item $\bA_{\boldsymbol{l}} \approx \bB_{\boldsymbol{l}}$ (homologous assumption)
 \end{itemize}
 \begin{equation*}
@@ -1243,6 +1234,15 @@ B_{lm}(k) Y_l^m (\theta, \varphi)
 \end{itemize}
 \end{frame}
 
+
+\begin{frame}<beamer>
+\frametitle{Orthogonal Extension }
+\begin{figure}[!htbp]
+\begin{tabular}{cc}
+\includegraphics[width=0.95\linewidth]{figures/trpv1_flowchart.pdf}\label{fig:simtrpv_emdb}
+\end{tabular}
+\end{figure}\blfootnote{TB, T. Zhang, A. Singer (2017+), submitted}
+\end{frame}
 
 \begin{frame}<beamer>
 \frametitle{Orthogonal Replacement (OR) \blfootnote{TB, T. Zhang, A. Singer (2015)}}

@@ -1,5 +1,6 @@
+\beamer@endinputifotherversion {3.24pt}
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@sectionintoc {2}{Challenges and Contributions}{13}{0}{2}
 \beamer@sectionintoc {3}{Part 1: Covariance Estimation from Noisy, CTF Affected Images}{23}{0}{3}
-\beamer@sectionintoc {4}{Part 2: 3D Homology Modeling}{50}{0}{4}
-\beamer@sectionintoc {5}{Appendix}{87}{0}{5}
+\beamer@sectionintoc {4}{Part 2: 3D Homology Modeling}{51}{0}{4}
+\beamer@sectionintoc {5}{Appendix}{88}{0}{5}
